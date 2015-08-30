@@ -1,0 +1,29 @@
+{
+  "olpVersion" : "0.5",
+
+  "paths" : [
+    {
+      "name" : "test-outlearn-path",
+      "title" : "My New Outlearn Path",
+      "description" : "test",
+      "privacy" : "public",
+      "pages" : [
+        {"page" : "./pages/welcome.md"},
+        {"module" : "first-outlearn-module"},
+        {"page" : "./pages/closing.md"}
+      ]
+    }
+  ],
+
+  "modules" : [
+    {"olm" : "./modules/first-outlearn-module.md"}
+  ],
+
+  "assets" : [
+    {
+      "name" : "stream",
+      "contentType" : "image/jpeg",
+      "location" : "assets/stream.jpg"
+    }
+  ]
+}
