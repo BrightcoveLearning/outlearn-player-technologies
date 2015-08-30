@@ -3,20 +3,22 @@
 
   "paths" : [
     {
-      "name" : "test-outlearn-path",
-      "title" : "My New Outlearn Path",
-      "description" : "test",
+      "name" : "player-technologies-path",
+      "title" : "Technologies for Player Development",
+      "description" : "This learning path provides help in essentials CSS and JavaScript skills for developers working with video.js or the Brightcove Player",
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "first-outlearn-module"},
+        {"module" : "css-module"},
+        {"module" : "js-module"},
         {"page" : "./pages/closing.md"}
       ]
     }
   ],
 
   "modules" : [
-    {"olm" : "./modules/first-outlearn-module.md"}
+    {"olm" : "./modules/css-module.md"},
+    {"olm" : "./modules/js-module.md"}
   ],
 
   "assets" : [

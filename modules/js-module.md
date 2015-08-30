@@ -1,8 +1,8 @@
 <!--
 {
-"name": "my-outlearn-module",
+"name": "js-module",
 "version" : "0.1",
-"title" : "My Outlearn Module",
+"title" : "JavaScript Essentials",
 "description" : "This module will grow to be the best module ever",
 "homepage" : "https://github.com/outlearn-content/outlearn-modules",
 "freshnessDate" : 2015-07-08,

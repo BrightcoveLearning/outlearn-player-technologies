@@ -1,8 +1,8 @@
 <!--
 {
-"name": "first-outlearn-module",
+"name": "css-module",
 "version" : "0.1",
-"title" : "First Outlearn Module",
+"title" : "CSS Essentials",
 "description" : "This is only a test",
 "homepage" : "https://github.com/outlearn-content/outlearn-modules",
 "freshnessDate" : 2015-07-08,
@@ -13,9 +13,9 @@
 <!-- @section -->
 
 # First module
-This is a test. 
+This is a test.
 
-![sea](https://raw.githubusercontent.com/BrightcoveLearning/outlearn-test-1/master/assets/sea.jpg) 
+![sea](https://raw.githubusercontent.com/BrightcoveLearning/outlearn-test-1/master/assets/sea.jpg)
 
 <!-- @section -->
 
@@ -39,7 +39,7 @@ GitHub-flavored markdown will work just fine, and you can preview your files in 
 
 If you want to enrich your content with more features, this sample module has a few examples, including the Unfurled Link above, and the interactive features described in the next section.
 
-> Block quotes get special styling on Outlearn. They turn into highlight boxes. 
+> Block quotes get special styling on Outlearn. They turn into highlight boxes.
 
 <!-- @section -->
 
@@ -48,15 +48,15 @@ You can include images using Markdown syntax.
 
 ![sea](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/assets/sea.jpg)
 
-You can embed hosted videos in your paths using Outlearn @asset syntax. 
+You can embed hosted videos in your paths using Outlearn @asset syntax.
 
 <iframe src='//players.brightcove.net/57838016001/default_default/index.html?videoId=4439973479001' allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
-Here is a Vimeo video: 
+Here is a Vimeo video:
 
 <!-- @asset, "contentType": "outlearn/video", "provider": "vimeo", "url": "https://player.vimeo.com/video/67325705" -->
 
-And here is another one form YouTube: 
+And here is another one form YouTube:
 
 <!-- @asset, "contentType": "outlearn/video", "provider": "youtube", "url": "https://www.youtube.com/embed/CmjeCchGRQo" --> <!-- @section -->
 
@@ -81,7 +81,7 @@ And if they are making something worth sharing, why not let them share it with y
 
 <!-- @task, "hasDeliverable" : true, "text" : "Write and submit a haiku about your favorite compiler."-->
 
-Then go ahead and test how much they know. 
+Then go ahead and test how much they know.
 
 <!-- @multipleChoice -->
 
@@ -90,7 +90,7 @@ You can add a matrix and its transpose together only if
 - [ ] The matrix has an inverse
 - [X] The matrix is a square matrix
 
-Remember that two matrices can be added if they have the same number of rows and columns. 
+Remember that two matrices can be added if they have the same number of rows and columns.
 
 <!-- @end -->
 
