@@ -4,8 +4,8 @@
 "version" : "0.1",
 "title" : "JavaScript Essentials",
 "description" : "This module will grow to be the best module ever",
-"homepage" : "https://github.com/outlearn-content/outlearn-modules",
-"freshnessDate" : 2015-07-08,
+"homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
+"freshnessDate" : 2015-08-30,
 "license" : "CC BY 4.0"
 }
 -->
