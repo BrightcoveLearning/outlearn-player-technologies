@@ -4,6 +4,8 @@ This learning path is designed for developers who will be working with the video
 
 Since the player is built with web technologies - HTML, CSS, and JavaScript - you need skills in these technologies to effectively work with the player.
 
+
+
 This learning path doesn't offer full tutorials on any of the technologies - that would be overwhelming, and is not the way any developer learns new languages. Instead, we'll focus on the parts of these languages that will be most useful to you in working with a video player.
 
 ## HTML
