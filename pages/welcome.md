@@ -5,13 +5,13 @@ Since the player is built with web technologies - HTML, CSS, and JavaScript - yo
 
 ![player technologies](https://raw.githubusercontent.com/BrightcoveLearning/outlearn-player-technologies/master/assets/player-technologies.png)
 
-This learning path doesn't offer full tutorials on any of the technologies - that would be overwhelming, and is not the way any developer learns new languages. Instead, we'll focus on the parts of these languages that will be most useful to you in working with a video player.
+This learning path doesn't offer full tutorials on any of the technologies - that would be overwhelming, and is not the way any developer learns new languages. Instead, we'll focus on the parts of these languages that will be most useful to you in working with a Brightcove video player.
 
 ## HTML
 HTML is the simplest of the three languages, and the least important one in this context, as the player itself includes all the HTML it needs. However, you may need to add additional HTML for `text tracks`, which can be used to display captions or subtitles, or to specify chapters within the video. You might also want to display a video playlist. We'll focus on the HTML you need to do these things.
 
 ## CSS
-CSS (Cascading Style Sheets) are used to provide formatting for HTML content. CSS has several important uses for video players:
+CSS (Cascading Style Sheets) are used to provide formatting for HTML content. CSS has several important uses for video players, such as:
 - sizing the player responsively
 - styling the controls
 - styling associated displays such as video playlists
