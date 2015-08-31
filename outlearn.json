@@ -1,31 +1,46 @@
 {
-  "olpVersion" : "0.5",
-
-  "paths" : [
-    {
-      "name" : "player-technologies-path",
-      "title" : "Technologies for Player Development",
-      "description" : "This learning path provides help in essentials CSS and JavaScript skills for developers working with video.js or the Brightcove Player",
-      "privacy" : "public",
-      "pages" : [
-        {"page" : "./pages/welcome.md"},
-        {"module" : "css-module"},
-        {"module" : "js-module"},
-        {"page" : "./pages/closing.md"}
-      ]
-    }
-  ],
-
-  "modules" : [
-    {"olm" : "./modules/css-module.md"},
-    {"olm" : "./modules/js-module.md"}
-  ],
-
-  "assets" : [
-    {
-      "name" : "stream",
-      "contentType" : "image/jpeg",
-      "location" : "assets/stream.jpg"
-    }
-  ]
+    "olpVersion": "0.5",
+    "paths": [
+        {
+            "name": "player-technologies-path",
+            "title": "Technologies for Player Development",
+            "description": "This learning path provides help in essentials CSS and JavaScript skills for developers working with video.js or the Brightcove Player",
+            "privacy": "public",
+            "pages": [
+                {
+                    "page": "./pages/welcome.md"
+                },
+                {
+                    "module": "html-module"
+                },
+                {
+                    "module": "css-module"
+                },
+                {
+                    "module": "js-module"
+                },
+                {
+                    "page": "./pages/closing.md"
+                }
+            ]
+        }
+    ],
+    "modules": [
+        {
+            "olm": "./modules/html-module.md"
+        },
+        {
+            "olm": "./modules/css-module.md"
+        },
+        {
+            "olm": "./modules/js-module.md"
+        }
+    ],
+    "assets": [
+        {
+            "name": "player-technologies",
+            "contentType": "image/png",
+            "location": "assets/player-technologies.png"
+        }
+    ]
 }
