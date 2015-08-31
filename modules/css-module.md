@@ -48,18 +48,6 @@ You can include images using Markdown syntax.
 
 ![sea](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/assets/sea.jpg)
 
-You can embed hosted videos in your paths using Outlearn @asset syntax.
-
-<iframe src='//players.brightcove.net/57838016001/default_default/index.html?videoId=4439973479001' allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
-
-Here is a Vimeo video:
-
-<!-- @asset, "contentType": "outlearn/video", "provider": "vimeo", "url": "https://player.vimeo.com/video/67325705" -->
-
-And here is another one form YouTube:
-
-<!-- @asset, "contentType": "outlearn/video", "provider": "youtube", "url": "https://www.youtube.com/embed/CmjeCchGRQo" --> <!-- @section -->
-
 # Let's make our module Fancy
 If you want to get your audience to practice what you preach, give them a task.
 
