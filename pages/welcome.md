@@ -1,18 +1,15 @@
-# Welcome
+# Welcome to the Technologies for Player Developers Learning Path
 
-This is where it all starts, your first path page. This page is your chance to make a great first impression. So let your personality come through and make sure to get your learners excited about embarking on your path.
+This learning path is designed for developers who will be working with the video.js player or the Brightcove Player (which is built on top of the video.js player).
 
-The best way to keep your learners' attention is with a crisp description of what your path is all about. For this sample path, the goal is get you started with creating your own Outlearn content as fast as possible. The target audience is **you**, and anyone else wanting to share amazing learning resources with other devs on a platform specifically built to let your content shine.
+Since the player is built with web technologies - HTML, CSS, and JavaScript - you need skills in these technologies to effectively work with the player.
 
-Next, it's important to highlight what learners should get out of your course.  For example, pretty soon you will be able to:
+This learning path doesn't offer full tutorials on any of the technologies - that would be overwhelming, and is not the way any developer learns new languages. Instead, we'll focus on the parts of these languages that will be most useful to you in working with a video player.
 
-* Fork your own copy of this template learning repository
-* Publish your own path into Outlearn
-* Enrich your Markdown with things like _Todos_ or _Unfurled Links_
+## HTML
 
-Make sure to set the right expectations about time and effort as well. For example, this sample path is quite short, no more than 5 minutes.  Of course, if you decide to start working on your own path, there's no telling...time stands still when a great developer gets deep in the flow!
+HTML is the simplest of the three languages, and the least important one in this context, as the player itself includes all the HTML it needs. However, you may need to add additional HTML for `text tracks`, which can be used to display captions or subtitles, or to specify chapters within the video. You might also want to display a video playlist. We'll focus on the HTML you need to do these things.
 
-No matter what kind of a role you are in, you are most likely teaching people. That includes on-boarding a new colleague, mentoring a junior developer, managing a team, or spreading the word about an open source project. We bet that we can make it easier for you to do some of that teaching. Go on and give it a try.
+## CSS
 
-Cheers,  
-The Outlearn Team
+CSS (Cascading Style Sheets) are used to provide formatting for HTML content. 
