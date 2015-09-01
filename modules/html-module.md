@@ -14,4 +14,10 @@
 
 # First module
 
-Let's get started
+Let's get started. We're guessing that if you got here, you already know basic HTML, but if don't, that's fine. HTML is a simple markup language for web pages, and it's easy to learn.
+
+If you're a total beginner with HTML, go here to get the basics:
+
+<!-- @link, "url" : "http://www.htmldog.com/guides/html/beginner/", "text": "Getting Started with HTML" -->
+
+Once you get the basics, go on to the next module.
