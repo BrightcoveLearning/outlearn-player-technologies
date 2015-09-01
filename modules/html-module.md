@@ -24,7 +24,7 @@ Once you get the basics, go on to the next module.
 
 <!-- @section -->
 
-# Using the &lt;track&gt; tag
+# Using the <track> tag
 
 Ok, you know the basics of HTML, so let's do something specific to the Brightcove Player. In this section you'll learn how to use the &lt;track&gt; tag and WebVTT to present your video in a chaptered format. The basic syntax is:
 
