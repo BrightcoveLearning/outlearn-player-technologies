@@ -12,12 +12,29 @@
 
 <!-- @section -->
 
-# First module
+# Getting Started
 
-Let's get started. We're guessing that if you got here, you already know basic HTML, but if don't, that's fine. HTML is a simple markup language for web pages, and it's easy to learn.
+We're guessing that if you got here, you already know basic HTML, but if don't, that's fine. HTML is a simple markup language for web pages, and it's easy to learn.
 
 If you're a total beginner with HTML, go here to get the basics:
 
 <!-- @link, "url" : "http://www.htmldog.com/guides/html/beginner/", "text": "Getting Started with HTML" -->
 
 Once you get the basics, go on to the next module.
+
+<!-- @section -->
+
+# Using the &lt;track&gt; tag
+
+Ok, you know the basics of HTML, so let's do something specific to the Brightcove Player. In this section you'll learn how to use the &lt;track&gt; tag and WebVTT to present your video in a chaptered format. The basic syntax is:
+
+```html
+<video ...
+    <track kind="chapters" srclang="en" src="http://path-to-file/chapter.vtt" label="Chapters">
+</video>
+```
+You can read about the details of the &lt;track&gt; attributes here:
+
+<!-- @link, "url" : "http://www.sitepoint.com/comprehensive-look-html5-track-element/", "text": "The Track Tag" -->
+
+> Note: in principle, the track tag can refer to `src` files in various formats, but for Video Cloud you need to use the WebVTT format.
