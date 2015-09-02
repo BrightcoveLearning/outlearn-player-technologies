@@ -45,7 +45,7 @@ You can read about the details of the &lt;track&gt; attributes here:
 
 
 
-Now, try it yourself - in the CodePen below, find the comment <!-- add track tag here --> and after it add the following tag:
+Now, try it yourself - in the CodePen below, find the comment <!-- add playlist here --> and after it add the following tag:
 
 ```html
 <track src="http://learning-services-media.brightcove.com/chaptered-video/vtt/sea-marvels-chapters.vtt" kind="chapters" srclang="en" label="Chapters">
