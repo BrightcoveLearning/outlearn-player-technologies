@@ -24,9 +24,13 @@ Once you get the basics, go on to the next module.
 
 <!-- @section -->
 
-# Using the <track> tag
+# Creating a custom playlist
 
-Ok, you know the basics of HTML, so let's do something specific to the Brightcove Player. In this section you'll learn how to use the &lt;track&gt; tag and WebVTT to present your video in a chaptered format. The basic syntax is:
+Ok, you know the basics of HTML, so let's do something specific to the Brightcove Player. In this section you'll learn how to create the HTML for a simple horizontal playlist along the bottom of a video player.
+
+As you know, the player has built-in capability to add a vertical playlist on the right side of the player, but you might prefer a more compact display of a simple row of video thumbnail images along the bottom of the player.
+
+Here we will create the HTML for playlist.
 
 ```html
 <video ...
