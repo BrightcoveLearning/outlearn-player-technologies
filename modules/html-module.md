@@ -71,4 +71,4 @@ Now let's create the HTML for playlist. Here is a list of video ids and URLs for
 
 Now, try it yourself - in the JS-Bin below, find the comment <!-- insert list here --> and after it add the following tag:
 
-<a class="jsbin-embed" href="https://jsbin.com/joteni/embed?html,css,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?3.34.3"></script>
+<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/edit?html,css,output", "text": "Add Playlist HTML" -->
