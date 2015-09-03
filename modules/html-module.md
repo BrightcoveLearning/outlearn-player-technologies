@@ -34,7 +34,7 @@ The HTML we're going to use is the unordered list element, so if you're not fami
 
 Now let's create the HTML for playlist. Here is a list of video ids and URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
 
-```javascript
+```
 [
   {
     "id": "4454723119001",
