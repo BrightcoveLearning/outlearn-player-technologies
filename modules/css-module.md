@@ -55,6 +55,7 @@ This means, of course, that the `li` tags you want to style must have `class="pl
 .bcls-playlist-item {
     margin: 0;
 }
+```
 
 The prefix can be anything you like. The `bcls` shown here is what we use as an abbreviation for Brightcove Learning Services (and we'll use this in our sample code)
 
