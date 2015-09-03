@@ -69,4 +69,4 @@ Now let's create the HTML for playlist. Here is a list of video ids and URLs for
 
 Now, try it yourself - in the JS-Bin below, find the comment <!-- insert list here --> and after it add the following tag:
 
-<iframe src="http://rcrooks.jsbin.com/hobada/edit" width="90%"></iframe>
+<!-- @link, "url" : "http://rcrooks.jsbin.com/hobada/edit", "text": "JS Bin" -->
