@@ -32,10 +32,41 @@ As you know, the player has built-in capability to add a vertical playlist on th
 
 The HTML we're going to use is the unordered list element, so if you're not familiar with it, you can read all about it <!-- @link, "url" : "http://learn.shayhowe.com/html-css/creating-lists/", "text": "here" -->
 
-Now let's create the HTML for playlist. Here is a list of URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
+Now let's create the HTML for playlist. Here is a list of video ids and URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
 
+```javascript
+[
+  {
+    "id": "4454723119001",
+    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/116/1752604059001_4454764366001_4454723119001-th.jpg?pubId=1752604059001&videoId=4454723119001"
+  },
+  {
+    "id": "4454629913001",
+    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/1124/1752604059001_4454713920001_4454629913001-th.jpg?pubId=1752604059001&videoId=4454629913001"
+  },
+  {
+    "id": "4454629914001",
+    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/124/1752604059001_4454713878001_4454629914001-th.jpg?pubId=1752604059001&videoId=4454629914001"
+  },
+  {
+    "id": "4454620115001",
+    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/2572/1752604059001_4454713729001_4454620115001-th.jpg?pubId=1752604059001&videoId=4454620115001"
+  },
+  {
+    "id": "4454620114001",
+    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/1572/1752604059001_4454713750001_4454620114001-th.jpg?pubId=1752604059001&videoId=4454620114001"
+  },
+  {
+    "id": "4454620113001",
+    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/572/1752604059001_4454712159001_4454620113001-th.jpg?pubId=1752604059001&videoId=4454620113001"
+  },
+  {
+    "id": "4454620112001",
+    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/3572/1752604059001_4454712084001_4454620112001-th.jpg?pubId=1752604059001&videoId=4454620112001"
+  }
+]
+```
 
-
-Now, try it yourself - in the JS-Bin below, find the comment <!-- add playlist here --> and after it add the following tag:
+Now, try it yourself - in the JS-Bin below, find the comment <!-- insert list here --> and after it add the following tag:
 
 <a class="jsbin-embed" href="http://jsbin.com/hobada/embed">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.34.3"></script>
