@@ -26,7 +26,13 @@ CSS itself is a pretty simple language to learn. As with HTML we're going to ass
 
 ## CSS Pitfalls
 
+Ok, if you're comfortable with the basics of CSS, let's move on.
+
 While CSS is a simple language, getting it to work the way you want can be tricky. Here are some of the most common issues and some tips on avoiding them.
+
+### CSS collisions
+
+Your pages generally will already have a lot of CSS in them before you do anything. There are site styles for your general site layout, and some of the elements you add to the page may come with their own CSS (the Brightcove Player, for example).
 
 ## Using Markdown
 You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
