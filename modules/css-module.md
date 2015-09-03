@@ -14,15 +14,9 @@
 
 ## Getting Started
 
+In the last module, we covered a little bit of HTML to see how you can add content around a Brightcove player. In this module, we'll see how to use CSS (Cascading Style Sheets) to style the content.
 
-
-here's a task:
-
-```js
-foo = 'bar';
-```
-
-<!-- @task, "text" : "Run the above code example on your own machine."-->
+> Remember that the player itself is just HTML, so you can also use CSS to modify the player appearance.
 
 ## Using Markdown
 You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
