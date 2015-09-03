@@ -32,7 +32,7 @@ As you know, the player has built-in capability to add a vertical playlist on th
 
 The HTML we're going to use is the unordered list element, so if you're not familiar with it, you can read all about it 
 
-<!-- @link, "url" : "http://learn.shayhowe.com/html-css/creating-lists/", "text": "here" -->
+<!-- @link, "url" : "http://learn.shayhowe.com/html-css/creating-lists/", "text": "Create HTML Lists" -->
 
 Now let's create the HTML for playlist. Here is a list of video ids and URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
 
