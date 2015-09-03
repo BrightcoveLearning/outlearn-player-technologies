@@ -71,3 +71,5 @@ Let's begin styling our playlist by adding some classes to the HTML:
 The syntax is simple: just add the attribute `class="classname"` to the start tag. Try it in the JSBin below:
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/edit", "text": "Finish JS-Bin" -->
+
+You can see the finished code for this exercise here: [CSS Exercise 1](https://rcrooks.jsbin.com/zudelu/edit)
