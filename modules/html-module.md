@@ -34,24 +34,8 @@ The HTML we're going to use is the unordered list element, so if you're not fami
 
 Now let's create the HTML for playlist. Here is a list of URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
 
-```
-
-```
-
-```html
-<video ...
-    <track kind="chapters" srclang="en" src="http://path-to-file/chapter.vtt" label="Chapters">
-</video>
-```
-You can read about the details of the &lt;track&gt; attributes here:
-
-<!-- @link, "url" : "http://www.sitepoint.com/comprehensive-look-html5-track-element/", "text": "The Track Tag" -->
-
-> Note: in principle, the track tag can refer to `src` files in various formats, but for Video Cloud you need to use the WebVTT format.
 
 
+Now, try it yourself - in the JS-Bin below, find the comment <!-- add playlist here --> and after it add the following tag:
 
-Now, try it yourself - in the CodePen below, find the comment <!-- add playlist here --> and after it add the following tag:
-
-```html
-<track src="http://learning-services-media.brightcove.com/chaptered-video/vtt/sea-marvels-chapters.vtt" kind="chapters" srclang="en" label="Chapters">
+<a class="jsbin-embed" href="http://jsbin.com/hobada/embed">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.34.3"></script>
