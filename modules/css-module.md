@@ -28,11 +28,35 @@ CSS itself is a pretty simple language to learn. As with HTML we're going to ass
 
 Ok, if you're comfortable with the basics of CSS, let's move on.
 
-While CSS is a simple language, getting it to work the way you want can be tricky. Here are some of the most common issues and some tips on avoiding them.
+While CSS is a simple language, getting it to work the way you want can be tricky. Here is the most common issues and some tips on avoiding it.
 
 ### CSS collisions
 
-Your pages generally will already have a lot of CSS in them before you do anything. There are site styles for your general site layout, and some of the elements you add to the page may come with their own CSS (the Brightcove Player, for example).
+Your pages generally will already have a lot of CSS in them before you do anything. There are site styles for your general site layout, and some of the elements you add to the page may come with their own CSS (the Brightcove Player, for example). These different style sheets compete with one another. Here are some basic tips for avoiding collisions with other CSS when you are adding styling to some part of the page:
+
+- Avoid styling by HTML tag names - instead, add classes to elements you want to style:
+
+```css
+/* don't do this! */
+li {
+    margin: 0;
+}
+/* instead, do this */
+.playlist-item {
+    margin: 0;
+}
+```
+
+This means, of course, that the `li` tags you want to style must have `class="playlist-item"` added to each tag.
+
+- Prefix the class names - the above rule helps, but what if some other CSS has already created a `playlist-item` class? To avoid that problem, prefix all your classes with some abbreviation that no one else is likely to use:
+
+```css
+.bcls-playlist-item {
+    margin: 0;
+}
+
+The prefix can be anything you like. The `bcls` shown here is what we use as an abbreviation for Brightcove Learning Services (and we'll use this in our sample code)
 
 ## Using Markdown
 You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
