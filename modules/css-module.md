@@ -73,3 +73,13 @@ The syntax is simple: just add the attribute `class="classname"` to the start ta
 <!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/edit", "text": "Finish JS-Bin" -->
 
 You can see the finished code for this exercise here: [CSS Exercise 1](https://rcrooks.jsbin.com/zudelu/edit)
+
+<!-- @section -->
+
+## Add the Class Style Rules
+
+Now that we've added classes to the HTML tags, we need to add the CSS that defines the way we want our playlist to look.
+
+For the overall list, we will constrain it to match the width of the player, and set the margin and padding to 0. Since all the thumbnails will not fit in the player width, we will also define the `overflow-x` property to allow the list to scroll horizonatally.
+
+For the list items, first of all, we don't want bullets, so we will define the `list-type` as none. We also want the thumbnails to be laid out horizontally rather than vertically. To do this, we will use the `display` property, setting it to `block-inline`.
