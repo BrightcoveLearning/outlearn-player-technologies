@@ -30,7 +30,9 @@ Ok, you know the basics of HTML, so let's do something specific to the Brightcov
 
 As you know, the player has built-in capability to add a vertical playlist on the right side of the player, but you might prefer a more compact display of a simple row of video thumbnail images along the bottom of the player.
 
-Here we will create the HTML for playlist. Here is a list of URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
+The HTML we're going to use is the unordered list element, so if you're not familiar with it, you can read all about it <!-- @link, "url" : "http://learn.shayhowe.com/html-css/creating-lists/", "text": "here" -->
+
+Now let's create the HTML for playlist. Here is a list of URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
 
 ```
 
