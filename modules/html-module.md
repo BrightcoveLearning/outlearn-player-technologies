@@ -69,4 +69,6 @@ Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, 
 </ul>
 ```
 
+(For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
+
 <!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/6/edit?html,css,output", "text": "Create the playlist" -->
