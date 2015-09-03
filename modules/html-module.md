@@ -38,4 +38,4 @@ Now let's create the HTML for playlist. Here is a list of URLs for video thumbna
 
 Now, try it yourself - in the JS-Bin below, find the comment <!-- add playlist here --> and after it add the following tag:
 
-<a class="jsbin-embed" href="http://jsbin.com/hobada/embed">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.34.3"></script>
+<!-- @link, "url" : "http://rcrooks.jsbin.com/hobada/edit", "text": "JS-Bin" -->
