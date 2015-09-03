@@ -2,7 +2,7 @@
 {
 "name": "css-module",
 "version" : "0.1",
-"title" : "CSS Essentials",
+"title" : "CSS Essentials for the Brightcove Player",
 "description" : "This is only a test",
 "homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
 "freshnessDate" : 2015-08-30,
@@ -12,15 +12,9 @@
 
 <!-- @section -->
 
-# First module
-This is a test.
-
-![sea](https://raw.githubusercontent.com/BrightcoveLearning/outlearn-test-1/master/assets/sea.jpg)
-
-<!-- @section -->
-
 ## Getting Started
-Some stuff [dev docs](http://docs.brightcove.com)
+
+
 
 here's a task:
 

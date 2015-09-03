@@ -2,7 +2,7 @@
 {
 "name": "html-module",
 "version" : "0.1",
-"title" : "HTML Essentials",
+"title" : "HTML Essentials for the Brightcove Player",
 "description" : "This is only a test",
 "homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
 "freshnessDate" : 2015-08-30,
@@ -12,7 +12,7 @@
 
 <!-- @section -->
 
-# Getting Started
+## Getting Started
 
 We're guessing that if you got here, you already know basic HTML, but if don't, that's fine. HTML is a simple markup language for web pages, and it's easy to learn.
 
@@ -24,7 +24,7 @@ Once you get the basics, go on to the next module.
 
 <!-- @section -->
 
-# Creating a custom playlist
+## Creating a custom playlist
 
 Ok, you know the basics of HTML, so let's do something specific to the Brightcove Player. In this section you'll learn how to create the HTML for a simple horizontal playlist along the bottom of a video player.
 
@@ -72,6 +72,9 @@ Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, 
 (For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/6/edit?html,css,output", "text": "Create the playlist" -->
+
+<!-- @section -->
+## Wrapping up
 
 Did that work? When you finish, the JS-Bin should look like the one below:
 
