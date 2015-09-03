@@ -41,21 +41,32 @@ You will also need to use `img` tags to display the video thumbnails, so if you 
 Now let's create the HTML for playlist. Here is a list of URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
 
 ```
-    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/116/1752604059001_4454764366001_4454723119001-th.jpg?pubId=1752604059001&videoId=4454723119001"
+    https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/116/1752604059001_4454764366001_4454723119001-th.jpg?pubId=1752604059001&videoId=4454723119001
 
-    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/1124/1752604059001_4454713920001_4454629913001-th.jpg?pubId=1752604059001&videoId=4454629913001"
+    https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/1124/1752604059001_4454713920001_4454629913001-th.jpg?pubId=1752604059001&videoId=4454629913001
 
-    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/124/1752604059001_4454713878001_4454629914001-th.jpg?pubId=1752604059001&videoId=4454629914001"
+    https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/124/1752604059001_4454713878001_4454629914001-th.jpg?pubId=1752604059001&videoId=4454629914001
 
-    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/2572/1752604059001_4454713729001_4454620115001-th.jpg?pubId=1752604059001&videoId=4454620115001"
+    https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/2572/1752604059001_4454713729001_4454620115001-th.jpg?pubId=1752604059001&videoId=4454620115001
 
-    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/1572/1752604059001_4454713750001_4454620114001-th.jpg?pubId=1752604059001&videoId=4454620114001"
+    https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/1572/1752604059001_4454713750001_4454620114001-th.jpg?pubId=1752604059001&videoId=4454620114001
 
-    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/572/1752604059001_4454712159001_4454620113001-th.jpg?pubId=1752604059001&videoId=4454620113001"
+    https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/572/1752604059001_4454712159001_4454620113001-th.jpg?pubId=1752604059001&videoId=4454620113001
 
-    "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/3572/1752604059001_4454712084001_4454620112001-th.jpg?pubId=1752604059001&videoId=4454620112001"
+    https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/3572/1752604059001_4454712084001_4454620112001-th.jpg?pubId=1752604059001&videoId=4454620112001
 ```
 
-Now, try it yourself - in the JS-Bin below, find the comment <!-- insert list here --> and after it add the following tag:
+Now, try it yourself - in the JS-Bin below, find the comment <!-- insert list here --> and after it add a `ul` tag for the list.
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/3/edit?html,css,output", "text": "Creat the playlist" -->
+Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, and inside each `li`, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
+
+```html
+<ul>
+    <li>
+        <img src="https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/116/1752604059001_4454764366001_4454723119001-th.jpg?pubId=1752604059001&videoId=4454723119001">
+    </li>
+    ...
+</ul>
+```
+
+<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/6/edit?html,css,output", "text": "Create the playlist" -->
