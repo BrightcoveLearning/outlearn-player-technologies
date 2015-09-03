@@ -58,4 +58,4 @@ Now let's create the HTML for playlist. Here is a list of URLs for video thumbna
 
 Now, try it yourself - in the JS-Bin below, find the comment <!-- insert list here --> and after it add the following tag:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/edit?html,css,output", "text": "Create the playlist" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/3/edit?html,css,output", "text": "Creat the playlist" -->
