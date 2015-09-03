@@ -72,3 +72,7 @@ Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, 
 (For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/6/edit?html,css,output", "text": "Create the playlist" -->
+
+Did that work? When you finish, the JS-Bin should look like the one below:
+
+<!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/edit", "text": "Finish JS-Bin" -->
