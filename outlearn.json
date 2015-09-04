@@ -28,13 +28,16 @@
     ],
     "modules": [
         {
-            "olm": "./modules/html-module.md"
+            "module": "./modules/html-module.md",
+            "preface": "To start off, we'll cover HTML, used to add content around the player."
         },
         {
-            "olm": "./modules/css-module.md"
+            "module": "./modules/css-module.md",
+            "preface": "So now you are probably thinking: \"well, that's not a beautiful playlist...and it doesn't actually play videos.\" Don't worry about that - HTML is just for structuring content. In the next module, we'll see how we can style the list using CSS. Adding the play-videos functionality will come later.",
         },
         {
-            "olm": "./modules/js-module.md"
+            "module": "./modules/js-module.md",
+            "preface": "So now we have a pretty nice looking playlist - but it still doesn't do anything. Now we will remedy that, using JavaScript to wire up the playlist to the player."
         }
     ],
     "assets": [
