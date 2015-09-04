@@ -65,8 +65,8 @@ The prefix can be anything you like. The `bcls` shown here is what we use as an 
 
 Let's begin styling our playlist by adding some classes to the HTML:
 
-- `ol` tag: class: bcls-playlist
-- `li` tags: class: bcls-playlist-item
+- `div` tag for the overall list: class: bcls-playlist
+- `div` tags for the individual items: class: bcls-playlist-item
 - `img` tags: class: bcls-thumbnail
 
 The syntax is simple: just add the attribute `class="classname"` to the start tag. Try it in the JSBin below:
@@ -85,7 +85,7 @@ For the overall list, we will constrain it to match the width of the player, and
 
 For the list items, first of all, we want the thumbnails to be laid out horizontally rather than vertically. To do this, we will use the `display` property, setting it to `inline-block`. We'll also set `margin` and `padding` to `0`, and set the `width` of the items to avoid white space between them.
 
-For the images, we will add a border to set them off from one another, set the margin to 0 to keep the list compact. and resize the images using the width and height properties to fit four images across the bottom of the player.
+For the images, we will add a border to set them off from one another (using the background color the player to give the list an integrated look), and resize the images using the width and height properties to fit four images across the bottom of the player.
 
 In the JS-Bin below, go to the CSS section and add the following classes:
 
