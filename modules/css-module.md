@@ -71,7 +71,7 @@ Let's begin styling our playlist by adding some classes to the HTML:
 
 The syntax is simple: just add the attribute `class="classname"` to the start tag. Try it in the JSBin below:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/edit", "text": "Finish JS-Bin" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/edit", "text": "Add Class Attributes" -->
 
 You can see the finished code for this exercise here: [CSS Exercise 1](https://rcrooks.jsbin.com/romose/edit)
 
@@ -109,3 +109,5 @@ bcls-thumbnail {
     border-right: 1px solid #333;
 }
 ```
+
+<!-- @link, "url" : "https://jsbin.com/zudelu/edit", "text": "Add CSS Classes" -->
