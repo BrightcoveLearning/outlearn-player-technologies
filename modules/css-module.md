@@ -81,9 +81,9 @@ You can see the finished code for this exercise here: [CSS Exercise 1](https://r
 
 Now that we've added classes to the HTML tags, we need to add the CSS that defines the way we want our playlist to look.
 
-For the overall list, we will constrain it to match the width of the player, and set the margin and padding to 0. Since all the thumbnails will not fit in the player width, we will also define the `overflow-x` property to allow the list to scroll horizontally.
+For the overall list, we will constrain it to match the width of the player, and height to present one row of images. We'll set the margin and padding to 0, and we don't want bullets, so we'll set `list-style-type` to `none`. Since all the thumbnails will not fit in the player width, we will also define the `overflow-x` property to allow the list to scroll horizontally. By default, though, extra list items would roll over to a new row, so we'll prevent that by setting `white-space` to `nowrap`.
 
-For the list items, first of all, we don't want bullets, so we will define the `list-type` as none. We also want the thumbnails to be laid out horizontally rather than vertically. To do this, we will use the `display` property, setting it to `inline-block`.
+For the list items, first of all, we want the thumbnails to be laid out horizontally rather than vertically. To do this, we will use the `display` property, setting it to `inline-block`.
 
 For the images, we will add a border to set them off from one another, set the margin to 0 to keep the list compact. and resize the images using the width and height properties to fit four images across the bottom of the player.
 

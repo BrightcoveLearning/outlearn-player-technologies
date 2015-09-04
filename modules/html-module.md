@@ -30,13 +30,15 @@ Ok, you know the basics of HTML, so let's do something specific to the Brightcov
 
 As you know, the player has built-in capability to add a vertical playlist on the right side of the player, but you might prefer a more compact display of a simple row of video thumbnail images along the bottom of the player.
 
-The HTML we're going to use is the unordered list element, so if you're not familiar with it, you can read all about it:
+The HTML we're going to use is the simple `div` tag, an all-purpose container. If you're not familiar with it, you can read all about it here:
 
-<!-- @link, "url" : "http://learn.shayhowe.com/html-css/creating-lists/", "text": "Create HTML Lists" -->
+<!-- @link, "url" : "http://mdn.beonex.com/en/HTML/Element/div.html", "text": "The DIV Tag" -->
+
+We will be using two levels of divs: one to wrap the whole list, and another for each item.
 
 You will also need to use `img` tags to display the video thumbnails, so if you need to learn about that tag, go here:
 
-<!-- @link, "url" : "http://www.html-5-tutorial.com/image-element.htm", "text": "Image Tag" -->
+<!-- @link, "url" : "http://mdn.beonex.com/en/HTML/Element/img.html", "text": "The IMG Tag" -->
 
 Now let's create the HTML for playlist. Here is a list of URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
 
@@ -61,12 +63,12 @@ Now, try it yourself - in the JS-Bin below, find the comment <!-- insert list he
 Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, and inside each `li`, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
 
 ```html
-<ul>
-    <li>
+<div>
+    <div>
         <img src="https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/116/1752604059001_4454764366001_4454723119001-th.jpg?pubId=1752604059001&videoId=4454723119001">
-    </li>
+    </div>
     ...
-</ul>
+</div>
 ```
 
 (For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
