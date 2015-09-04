@@ -58,7 +58,7 @@ Now let's create the HTML for playlist. Here is a list of URLs for video thumbna
     https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/3572/1752604059001_4454712084001_4454620112001-th.jpg?pubId=1752604059001&videoId=4454620112001
 ```
 
-Now, try it yourself - in the JS-Bin below, find the comment <!-- insert list here --> and after it add a `ul` tag for the list.
+Now, try it yourself - in the JS-Bin below, find the comment <!-- add playlist here --> and after it add a `ul` tag for the list.
 
 Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, and inside each `li`, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
 
@@ -73,13 +73,13 @@ Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, 
 
 (For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/6/edit?html,css,output", "text": "Create the playlist" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/7/edit?html,css,output", "text": "Add the Playlist HTML" -->
 
 <!-- @section -->
 ## Wrapping up
 
 Did that work? When you finish, the JS-Bin should look like the one below:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/edit", "text": "Finish JS-Bin" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/6/edit?html,css,output", "text": "Playlist HTML Solution" -->
 
-So now you are probably thinking "well, that's not a very pretty playlist...and it doesn't actually play videos." Don't worry about that - HTML is just for structuring content. In the next module, we'll see how we can style the list using CSS. Adding the play videos functionality will come later.
+So now you are probably thinking: "well, that's not a beautiful playlist...and it doesn't actually play videos." Don't worry about that - HTML is just for structuring content. In the next module, we'll see how we can style the list using CSS. Adding the play-videos functionality will come later.
