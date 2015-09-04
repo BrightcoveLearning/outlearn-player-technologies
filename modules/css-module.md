@@ -90,23 +90,24 @@ For the images, we will add a border to set them off from one another, set the m
 In the JS-Bin below, go to the CSS section and add the following classes:
 
 ```css
-bcls-playlist {
+.bcls-playlist {
     width: 500px;
+    height: 68px;
     overflow-x: scroll;
+    white-space: nowrap;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
-bcls-playlist-item {
-    list-type: none;
+.bcls-playlist-item {
     display: inline-block;
+    padding: 0;
+    width: 120px;
 }
-bcls-thumbnail {
-    width: 125px;
-    height: 70px;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
+.bcls-thumbnail {
+    width: 118px;
+    height: 60px;
+    border: 4px solid #141B17;
 }
 ```
 
