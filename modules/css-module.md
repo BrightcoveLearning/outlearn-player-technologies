@@ -113,3 +113,17 @@ In the JS-Bin below, go to the CSS section and add the following classes:
 ```
 
 <!-- @link, "url" : "https://jsbin.com/zudelu/edit", "text": "Add CSS Classes" -->
+
+Got that? If you want to see what it should look like, see the JS-Bin below:
+
+<!-- @link, "url" : "https://rcrooks.jsbin.com/putime/11/edit?html,css,output", "text": "CSS for the Playlist Finished" -->
+
+<!-- @section -->
+
+## Best Practices
+
+What we did here is fine, but it has the limitation that the width of the playlist is a hard-coded value to match that of the player. So if you wanted to use this with a player that was sized differently, you would have to adjust the width of the playlist to match the new player. 
+
+And what if you wanted to [make the player responsive](http://docs.brightcove.com/en/video-cloud/brightcove-player/samples/responsive-sizing.html)? 
+
+A better approach would be to wrap the whole player and playlist in another `div` tag. Then you could set the width of the player and playlist to `100%` of the wrapper `div` width, and then just set the width on the wrapper.
