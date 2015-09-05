@@ -73,13 +73,13 @@ Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, 
 
 (For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/7/edit?html,css,output", "text": "Add the Playlist HTML" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/11/edit?html,css,output", "text": "Add the Playlist HTML" -->
 
 <!-- @section -->
 ## Wrapping up
 
 Did that work? When you finish, the JS-Bin should look like the one below:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/6/edit?html,css,output", "text": "Playlist HTML Solution" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/8/edit?html,css,output", "text": "Playlist HTML Solution" -->
 
 So now you are probably thinking: "well, that's not a beautiful playlist...and it doesn't actually play videos." Don't worry about that - HTML is just for structuring content. In the next module, we'll see how we can style the list using CSS. Adding the play-videos functionality will come later.
