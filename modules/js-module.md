@@ -14,7 +14,39 @@
 
 # Getting Started
 
-If you already know the basics of JavaScript, you can move right on to the next section. If you're just starting, however, there is a lot of complexity to JavaScript, and you need to learn the basic features of the language.
+If you already know the basics of JavaScript, you can move right on to the next section. If you're just starting, however, there is a lot of complexity to JavaScript, and you need to learn the basic features of the language. Here's a very good tutorial for beginners:
+
+<!-- @link, "url" : "http://www.referencedesigner.com/tutorials/js/js_1.php", "text": "JavaScript Tutorial" -->
+
+Take your time with that - practice spent on the basics will help you later on. In particular, you need to understand events, because much of the scripting you do in relation to the player will be in response to some event. You also need to feel comfortable with data structures like objects and arrays.
+
+Take, for example, an  array of simple video objects:
+
+```js
+var items = [
+    {
+        "id": 987934797,
+        "thumbnail": "http://somepath/image987934797.png"
+    },
+    {
+        "id": 83623726,
+        "thumbnail": "http://somepath/image83623726.png"
+    }
+];
+```
+
+You can get at the properties of the videos by looping over the array:
+
+```js
+var video,
+    i,
+    iMax = items.length;
+
+for (i = 0; i < iMax; i++) {
+    video = items[i];
+    document.write('video id: ' + video.id);
+    document.write('thumbnail: ' + video.thumbnail);
+}
 
 ### Using Markdown
 
