@@ -59,4 +59,4 @@ In the JS-Bin below, you'll find the same code - try modifying it: instead of ju
 
 `document.write` is a handy method of the `document` object, but it's limited. Fortunately, JavaScript has much more sophisticated ways of adding HTML content.
 
-### `addChild()`
+### `appendChild()`
