@@ -3,7 +3,7 @@
 "name": "js-module",
 "version" : "0.1",
 "title" : "JavaScript Essentials for the Brightcove Player",
-"description" : "This module will grow to be the best module ever",
+"description" : "Learn to use JavaScript to control the Brightcove Player",
 "homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
 "freshnessDate" : 2015-08-30,
 "license" : "CC BY 4.0"
@@ -14,7 +14,7 @@
 
 # Getting Started
 
-This is a placeholder Learning Module for you to customize.  Look in the `my-outlearn-module.md` to see how it is coded up, and then start editing away with your own content.
+If you already know the basics of JavaScript, you can move right on to the next section. If you're just starting, however, there is a lot of complexity to JavaScript, and you need to learn the basic features of the language.
 
 ### Using Markdown
 
