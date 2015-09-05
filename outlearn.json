@@ -12,13 +12,16 @@
                     "page": "./pages/welcome.md"
                 },
                 {
-                    "module": "html-module"
+                    "module": "html-module",
+                    "preface": "To get started, let's look at HTML, the markup language you can use to add content around your player."
                 },
                 {
-                    "module": "css-module"
+                    "module": "css-module",
+                    "preface": "So now you are probably thinking: well, that's not a beautiful playlist...and it doesn't actually play videos. Don't worry about that - HTML is just for structuring content. In the next module, we'll see how we can style the list using CSS. Adding the play-videos functionality will come later."
                 },
                 {
-                    "module": "js-module"
+                    "module": "js-module",
+                    "preface": "So now we have a pretty nice looking playlist - but it still doesn't do anything. Now we will remedy that, using JavaScript to wire up the playlist to the player."
                 },
                 {
                     "page": "./pages/closing.md"
