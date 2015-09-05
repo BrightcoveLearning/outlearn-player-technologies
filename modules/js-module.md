@@ -53,3 +53,10 @@ In the JS-Bin below, you'll find the same code - try modifying it: instead of ju
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/lifoko/2/edit?html,js,output", "text": "JavaScript Exercise 1" -->
 
+<!-- @section -->
+
+## Adding HTML Elements using JavaScript
+
+`document.write` is a handy method of the `document` object, but it's limited. Fortunately, JavaScript has much more sophisticated ways of adding HTML content.
+
+### `addChild()`
