@@ -33,7 +33,7 @@
         },
         {
             "module": "./modules/css-module.md",
-            "preface": "So now you are probably thinking: \"well, that's not a beautiful playlist...and it doesn't actually play videos.\" Don't worry about that - HTML is just for structuring content. In the next module, we'll see how we can style the list using CSS. Adding the play-videos functionality will come later.",
+            "preface": "So now you are probably thinking: \"well, that's not a beautiful playlist...and it doesn't actually play videos.\" Don't worry about that - HTML is just for structuring content. In the next module, we'll see how we can style the list using CSS. Adding the play-videos functionality will come later."
         },
         {
             "module": "./modules/js-module.md",
