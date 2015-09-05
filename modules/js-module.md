@@ -25,12 +25,12 @@ Take, for example, an  array of simple video objects:
 ```js
 var items = [
     {
-        "id": 987934797,
-        "thumbnail": "http://somepath/image987934797.png"
+        "id": 4454723119001,
+        "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/116/1752604059001_4454764366001_4454723119001-th.jpg?pubId=1752604059001&videoId=4454723119001"
     },
     {
-        "id": 83623726,
-        "thumbnail": "http://somepath/image83623726.png"
+        "id": 4454629913001,
+        "thumbnail": "https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/1124/1752604059001_4454713920001_4454629913001-th.jpg?pubId=1752604059001&videoId=4454629913001"
     }
 ];
 ```
@@ -51,7 +51,7 @@ for (i = 0; i < iMax; i++) {
 
 In the JS-Bin below, you'll find the same code - try modifying it: instead of just adding &lt;br&gt; tag at the end of each line, wrap each line in a &lt;p&gt; tag.
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/lifoko/2/edit?html,js,output", "text": "JavaScript Exercise 1" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/lifoko/4/edit?html,js,output", "text": "JavaScript Exercise 1" -->
 
 <!-- @section -->
 
