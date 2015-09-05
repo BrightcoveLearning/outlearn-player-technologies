@@ -47,6 +47,11 @@ for (i = 0; i < iMax; i++) {
     document.write('video id: ' + video.id);
     document.write('thumbnail: ' + video.thumbnail);
 }
+```
+
+In the JS-Bin below, you'll find the same code - try modifying it: instead of just adding &lt;br&gt; tag at the end of each line, wrap each line in a &lt;p&gt; tag.
+
+<!-- @link, "url" : "https://rcrooks.jsbin.com/lifoko/2/edit?html,js,output", "text": "JavaScript Exercise 1" -->
 
 ### Using Markdown
 
