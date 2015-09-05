@@ -2,7 +2,7 @@
 {
 "name": "js-module",
 "version" : "0.1",
-"title" : "JavaScript Essentials",
+"title" : "JavaScript Essentials for the Brightcove Player",
 "description" : "This module will grow to be the best module ever",
 "homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
 "freshnessDate" : 2015-08-30,
@@ -12,7 +12,7 @@
 
 <!-- @section -->
 
-# What is this page?
+# Getting Started
 
 This is a placeholder Learning Module for you to customize.  Look in the `my-outlearn-module.md` to see how it is coded up, and then start editing away with your own content.
 
