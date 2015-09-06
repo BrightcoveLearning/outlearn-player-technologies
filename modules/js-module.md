@@ -173,3 +173,5 @@ videojs("myPlayerID").on('loadedmetadata',function(){
     var myPlayer = this;
 });
 ```
+
+The player has a built-in `catalog` object that will allow you to get playlist data, but first we need to get the playlist id from the attributes.
