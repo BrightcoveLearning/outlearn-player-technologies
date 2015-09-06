@@ -118,5 +118,17 @@ In the JS-Bin below, try adding an `img` tag to the `div` tag, and set the `src`
 
 Got it? If you don't see the image, check [the solution](https://rcrooks.jsbin.com/lafuju/4/edit?html,js,output).
 
-If you omit the value, then you will instead retrieve the value of the attribute.
+<!-- @section -->
+## Working with the Brightcove Player
+
+We now have almost all the JavaScript tools we need to build our playlist dynamically - all we're lacking is the playlist data. But the player will give you that - all you have to do is assign the playlist to the player by adding a `data-playlist-id` attribute to the video tag and setting it equal to the playlist id, like this:
+
+```html
+<video style='width: 500px;height: 281px;'
+    **data-playlist-id="4452341376001"**
+    data-account="1752604059001"
+    data-player="027d9de0-cb4f-4598-a1d4-0d8480d5a154"
+    data-embed="default"
+    class="video-js" controls>
+</video>
 ```
