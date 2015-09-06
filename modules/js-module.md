@@ -132,3 +132,9 @@ We now have almost all the JavaScript tools we need to build our playlist dynami
     class="video-js" controls>
 </video>
 ```
+
+Ok, so the playlist data is there, and the player provides us a nice way to get to it. But first we need to back up a little to see how we write JavaScript to interact with the player.
+
+### Player events
+
+The player emits a bunch of events. The ones that we need to know about now are the ones that are emitted when the player is loaded on the page.
