@@ -103,4 +103,18 @@ var existingEl = document.getElementById('myDiv'),
 existingEl.appendChild(newEl);
 newEl.appendChild(newStrongEl);
 newStrongEl.appendChild(newText);
+
+#### Adding/modifying attributes
+
+You can set attributes for new or existing elements using:
+
+```js
+setAttribute('attribute name', 'value')
+```
+
+In the JS-Bin below, try adding an `img` tag to the `div` tag, and set the `src` attribute for the image to `https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output` (you'll find this url in a comment in the bin):
+
+<!-- @link, "url" : "https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output", "text": "JavaScript Exercide 2" -->
+
+If you omit the value, then you will instead retrieve the value of the attribute.
 ```
