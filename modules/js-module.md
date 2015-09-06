@@ -162,3 +162,19 @@ videojs('myPlayerID').ready(function(){
   // now I can call player methods on myPlayer
 })
 });
+```
+
+For a barebones player, the `ready` event is all you need to worry about. However, the Brightcove player loads some plugins and other data, and to be sure all this is finished before you start interacting with the player, you need to add an additional listener for the `loadedmetadata` event:
+
+```js
+var myPlayer;
+
+videojs('myPlayerID').ready(function(){
+    myPlayer = this;
+    videojs("myPlayerID").on('loadedmetadata',function(){
+        var myPlayer = this;
+        myPlayer.play();
+    });
+})
+});
+```
