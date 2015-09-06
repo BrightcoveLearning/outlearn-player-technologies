@@ -67,7 +67,7 @@ You can add new HTML elements to a page using the [document.createElement()](htt
 var newEl = document.create.Element('img');
 ```
 
-However, although `newEl` is part of the DOM (document object model), it won't appear on the page until you add it to some element that is already there using `appendChild()`. If you wanted to put the new element at the end of the page, you could simply use:
+However, although `newEl` is part of the DOM (document object model), it won't appear on the page until you add it to some element that is already there using [appendChild()](http://www.w3schools.com/js/js_htmldom_nodes.asp). If you wanted to put the new element at the end of the page, you could simply use:
 
 ```js
 document.appendChild(newEl);
