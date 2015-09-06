@@ -116,5 +116,7 @@ In the JS-Bin below, try adding an `img` tag to the `div` tag, and set the `src`
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output", "text": "JavaScript Exercide 2" -->
 
+Got it? If you don't see the image, check [the solution](https://rcrooks.jsbin.com/lafuju/4/edit?html,js,output).
+
 If you omit the value, then you will instead retrieve the value of the attribute.
 ```
