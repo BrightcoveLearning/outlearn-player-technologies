@@ -169,7 +169,7 @@ For a barebones player, the `ready` event is all you need to worry about. Howeve
 ```js
 var myPlayer;
 
-    videojs("myPlayerID").on('loadedmetadata',function(){
-        var myPlayer = this;
-    });
+videojs("myPlayerID").on('loadedmetadata',function(){
+    var myPlayer = this;
+});
 ```
