@@ -128,4 +128,4 @@ And what if you wanted to [make the player responsive](http://docs.brightcove.co
 
 A better approach would be to wrap the whole player and playlist in another `div` tag. Then you could set the width of the player and playlist to `100%` of the wrapper `div` width, and then just set the width on the wrapper, like the example in the JS-Bin below:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/hovayo/3/edit?html,css,output", "text": "Video Player and Playlist in DIV Wrapper" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/hovayo/4/edit?html,css,output", "text": "Video Player and Playlist in DIV Wrapper" -->
