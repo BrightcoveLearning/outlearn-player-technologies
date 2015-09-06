@@ -112,7 +112,7 @@ In the JS-Bin below, go to the CSS section and add the following classes:
 }
 ```
 
-<!-- @link, "url" : "https://jsbin.com/zudelu/edit", "text": "Add CSS Classes" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/zudelu/8/edit?html,css,output", "text": "Add CSS Classes" -->
 
 Got that? If you want to see what it should look like, see the JS-Bin below:
 
