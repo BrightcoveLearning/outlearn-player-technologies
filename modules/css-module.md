@@ -116,7 +116,7 @@ In the JS-Bin below, go to the CSS section and add the following classes:
 
 Got that? If you want to see what it should look like, see the JS-Bin below:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/putime/11/edit?html,css,output", "text": "CSS for the Playlist Finished" -->
+<!-- @link, "url" : "https://rcrooks.jsbin.com/putime/12/edit?html,css,output", "text": "CSS for the Playlist Finished" -->
 
 <!-- @section -->
 
