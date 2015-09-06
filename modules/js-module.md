@@ -125,7 +125,7 @@ We now have almost all the JavaScript tools we need to build our playlist dynami
 
 ```html
 <video style='width: 500px;height: 281px;'
-    **data-playlist-id="4452341376001"**
+    data-playlist-id="4452341376001"
     data-account="1752604059001"
     data-player="027d9de0-cb4f-4598-a1d4-0d8480d5a154"
     data-embed="default"
