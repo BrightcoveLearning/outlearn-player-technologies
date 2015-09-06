@@ -137,4 +137,28 @@ Ok, so the playlist data is there, and the player provides us a nice way to get 
 
 ### Player events
 
-The player emits a bunch of events. The ones that we need to know about now are the ones that are emitted when the player is loaded on the page.
+The player emits a bunch of events. The ones that we need to know about now are the ones that are emitted when the player is loaded on the page. The first one that matters is the ready event, which signifies that the player is ready to interact with.
+
+To make it easy to interact with your player, add an `id` to the video tag:
+
+```html
+<video style='width: 500px;height: 281px;'
+    id="myPlayerID"
+    data-playlist-id="4452341376001"
+    data-account="1752604059001"
+    data-player="027d9de0-cb4f-4598-a1d4-0d8480d5a154"
+    data-embed="default"
+    class="video-js" controls>
+</video>
+```
+
+Once you have added the `id`, here's how you set up your code to listen for the `ready` event:
+
+```js
+var myPlayer;
+
+videojs('myPlayerID').ready(function(){
+  myPlayer = this;
+  // now I can call player methods on myPlayer
+})
+});
