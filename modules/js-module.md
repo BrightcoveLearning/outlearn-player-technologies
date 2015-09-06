@@ -84,3 +84,23 @@ In most cases though, you will want to put the new element in a specific place, 
 
     existingEl.appendChild(newEl);
 </script>
+```
+
+### Adding or changing attributes
+
+Creating new elements wouldn't be very useful if we couldn't add content and attributes to them. So of course we can add multiple layers of elements, and also add text content or modify attributes.
+
+#### Adding text content
+
+For our player, we don't really need to add text, but in many cases you will. The way to do it is to use `document.createTextNode('text here')` and then append the text node to your new element:
+
+```js
+var existingEl = document.getElementById('myDiv'),
+    newEl = document.createElement('p'),
+    newStrongEl = document.createElement('strong'),
+    newText = document.createTextNode('My new text');
+
+existingEl.appendChild(newEl);
+newEl.appendChild(newStrongEl);
+newStrongEl.appendChild(newText);
+```
