@@ -59,4 +59,16 @@ In the JS-Bin below, you'll find the same code - try modifying it: instead of ju
 
 `document.write` is a handy method of the `document` object, but it's limited. Fortunately, JavaScript has much more sophisticated ways of adding HTML content.
 
-### `appendChild()`
+### `createElement()` and `appendChild()`
+
+You can add new HTML elements to a page using the [document.createElement()](http://www.w3schools.com/js/js_htmldom_nodes.asp):
+
+```js
+var newEl = document.create.Element('img');
+```
+
+However, although `newEl` is part of the DOM (document object model), it won't appear on the page until you add it to some element that is already there using `appendChild()`. If you wanted to put the new element at the end of the page, you could simply use:
+
+```js
+document.appendChild(newEl);
+```
