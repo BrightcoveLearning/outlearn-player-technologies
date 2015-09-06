@@ -73,4 +73,14 @@ However, although `newEl` is part of the DOM (document object model), it won't a
 document.appendChild(newEl);
 ```
 
-In most cases though, you will want to put the new element in a specific place, The easiest way to do this is to get a reference to the tag you want to put your new element inside using
+In most cases though, you will want to put the new element in a specific place, The easiest way to do this is to get a reference to the tag you want to put your new element inside using [`document.getElementById()`](http://www.w3schools.com/js/js_htmldom_elements.asp):
+
+```html
+<div id="myDiv"></div>
+
+<script>
+    var existingEl = document.getElementById('myDiv'),
+        newEl = document.createElement('img');
+
+    existingEl.appendChild(newEl);
+</script>
