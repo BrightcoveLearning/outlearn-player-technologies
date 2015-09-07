@@ -85,7 +85,7 @@ For the overall list, we will constrain it to match the width of the player, and
 
 For the list items, first of all, we want the thumbnails to be laid out horizontally rather than vertically. To do this, we will use the `display` property, setting it to `inline-block`. We'll also set `margin` and `padding` to `0`, and set the `width` of the items to avoid white space between them.
 
-For the images, we will add a border to set them off from one another (using the background color the player to give the list an integrated look), and resize the images using the width and height properties to fit four images across the bottom of the player.
+For the images, we will add a border to set them off from one another (using the background color the player to give the list an integrated look), and resize the images using the width and height properties to fit four images across the bottom of the player. Finally we'll add the `cursor` property, setting it to `pointer` so that it's more obvious that clicking on the images will do something.
 
 In the JS-Bin below, go to the CSS section and add the following classes:
 
@@ -109,6 +109,7 @@ In the JS-Bin below, go to the CSS section and add the following classes:
     width: 118px;
     height: 66px;
     border: 4px solid #141B17;
+    cursor: pointer;
 }
 ```
 
@@ -122,9 +123,9 @@ Got that? If you want to see what it should look like, see the JS-Bin below:
 
 ## Best Practices
 
-What we did here is fine, but it has the limitation that the width of the playlist is a hard-coded value to match that of the player. So if you wanted to use this with a player that was sized differently, you would have to adjust the width of the playlist to match the new player. 
+What we did here is fine, but it has the limitation that the width of the playlist is a hard-coded value to match that of the player. So if you wanted to use this with a player that was sized differently, you would have to adjust the width of the playlist to match the new player.
 
-And what if you wanted to [make the player responsive](http://docs.brightcove.com/en/video-cloud/brightcove-player/samples/responsive-sizing.html)? 
+And what if you wanted to [make the player responsive](http://docs.brightcove.com/en/video-cloud/brightcove-player/samples/responsive-sizing.html)?
 
 A better approach would be to wrap the whole player and playlist in another `div` tag. Then you could set the width of the player and playlist to `100%` of the wrapper `div` width, and then just set the width on the wrapper, like the example in the JS-Bin below:
 
