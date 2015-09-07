@@ -58,23 +58,27 @@ videojs("myPlayerID").on('loadedmetadata',function(){
         playlistItem,
         thumbnailImg;
     myPlayer.catalog.getPlaylist(playlistId, function (error, playlist) {
-        iMax = playlist.length;
-        for (i = 0; i < iMax; i++) {
-            // create the playlist item and set its class
-            playlistItem = document.createElement('div');
-            playlistItem.setAttribute('class', 'bcls-playlist-item');
-            // create the thumbnail img and set its class
-            thumbnailImg = document.createElement('img');
-            thumbnailImg.setAttribute('class', 'bcls-thumbnail');
-            // set the src for the thumbnail
-            thumbnailImg.setAttribute('src', playlist[i].thumbnail);
-            // set the id for img to the video id - we'll need this to load the video
-            thumbnailImg.setAttribute('id', playlist[i].id);
-            // for best practice, set the alt attribute to the video name
-            thumbnailImg.setAttribute('alt', playlist[i].name);
-            // now append the img to the item, and the item to the playlist wrapper
-            playlistItem.appendChild(thumbnailImg);
-            playlistWrapper.appendChild(playlistItem);
+        if (error === null) {
+            iMax = playlist.length;
+            for (i = 0; i < iMax; i++) {
+                // create the playlist item and set its class
+                playlistItem = document.createElement('div');
+                playlistItem.setAttribute('class', 'bcls-playlist-item');
+                // create the thumbnail img and set its class
+                thumbnailImg = document.createElement('img');
+                thumbnailImg.setAttribute('class', 'bcls-thumbnail');
+                // set the src for the thumbnail
+                thumbnailImg.setAttribute('src', playlist[i].thumbnail);
+                // set the id for img to the video id - we'll need this to load the video
+                thumbnailImg.setAttribute('id', playlist[i].id);
+                // for best practice, set the alt attribute to the video name
+                thumbnailImg.setAttribute('alt', playlist[i].name);
+                // now append the img to the item, and the item to the playlist wrapper
+                playlistItem.appendChild(thumbnailImg);
+                playlistWrapper.appendChild(playlistItem);
+            }
+        } else {
+            console.log('error', error);
         }
     });
 });
