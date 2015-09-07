@@ -205,3 +205,5 @@ You will find that the playlist data is an array of video objects - they contain
 - id : the video id - we'll use this to load the video into the player
 - thumbnail : the is the thumbnail url we've been using
 - name : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text)
+
+Here's how we could build a
