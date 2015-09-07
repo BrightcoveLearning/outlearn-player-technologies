@@ -204,6 +204,25 @@ You will find that the playlist data is an array of video objects - they contain
 
 - id : the video id - we'll use this to load the video into the player
 - thumbnail : the is the thumbnail url we've been using
-- name : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text)
+- name : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text).
 
-Here's how we could build a
+To create playlist items, then, we simply need to loop over the playlist items returned, and use the properties of each item to provide values for the attributes of the `img` tag:
+
+```javascript
+videoItem = playlist[i];
+// create the playlist item and set its class
+playlistItem = document.createElement('div');
+playlistItem.setAttribute('class', 'bcls-playlist-item');
+// create the thumbnail img and set its class
+thumbnailImg = document.createElement('img');
+thumbnailImg.setAttribute('class', 'bcls-thumbnail');
+// set the src for the thumbnail
+thumbnailImg.setAttribute('src', videoItem.thumbnail);
+// set the id for img to the video id - need this to load the video
+thumbnailImg.setAttribute('id', videoItem.id);
+// for best practice, set the alt attribute to the video name
+thumbnailImg.setAttribute('alt', videoItem.name);
+```
+
+
+
