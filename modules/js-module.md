@@ -105,6 +105,7 @@ var existingEl = document.getElementById('myDiv'),
 existingEl.appendChild(newEl);
 newEl.appendChild(newStrongEl);
 newStrongEl.appendChild(newText);
+```
 
 #### Adding/modifying attributes
 
