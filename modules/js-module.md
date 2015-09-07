@@ -174,4 +174,14 @@ videojs("myPlayerID").on('loadedmetadata',function(){
 });
 ```
 
-The player has a built-in `catalog` object that will allow you to get playlist data, but first we need to get the playlist id from the attributes.
+The player has a built-in `catalog` object that will allow you to get playlist data, but first we need to get the playlist id from the attributes. Similar to the `setAttribute()` method that we used earlier, there is a `getAttribute` method that returns the attribute value. So we can get the playlist id this way:
+
+```js
+var videoEl = document.getElementById('myPlayerID'),
+    playlistId = videoEl.getAttribute('data-playlist-id');
+```
+
+> By the way, the `data-whatever` attributes were introduced in HTML5 for specifically this purpose: to provide a place to store bits of information associated with an HTML element so that it can be easily retrieved by scripts
+
+Once we have the playlist id, we can get the playlist data using the `catalog.getPlaylist(playlistId, callback)` method. The callback is a function that will handle the returned data - we can define the function somewhere else, or right there in the method call, like this:
+
