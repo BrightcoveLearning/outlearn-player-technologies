@@ -195,5 +195,12 @@ myPlayer.catalog.getPlaylist(playlistId, function (error, playlist) {
             console.log('error', error);
         }
     });
+```
 
 > Note that if something goes wrong, an error will be returned as the first argument of the function - so you should always check to make sure the error is `null` before trying to process the data.
+
+You will find that the playlist data is an array of video objects - they contain many properties, but three of them will be useful to us here:
+
+- id : the video id - we'll use this to load the video into the player
+- thumbnail : the is the thumbnail url we've been using
+- name : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text)
