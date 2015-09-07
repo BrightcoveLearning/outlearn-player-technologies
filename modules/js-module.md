@@ -53,6 +53,8 @@ In the JS-Bin below, you'll find the same code - try modifying it: instead of ju
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/lifoko/4/edit?html,js,output", "text": "JavaScript Exercise 1" -->
 
+> Tip: all browsers include Developer Tools, one of which is a JavaScript console. You can dump any variable by including `console.log(variable_name)` in your code. And JS-Bins also include a console you can use in the same way.
+
 <!-- @section -->
 
 ## Adding HTML Elements using JavaScript
@@ -185,3 +187,13 @@ var videoEl = document.getElementById('myPlayerID'),
 
 Once we have the playlist id, we can get the playlist data using the `catalog.getPlaylist(playlistId, callback)` method. The callback is a function that will handle the returned data - we can define the function somewhere else, or right there in the method call, like this:
 
+```js
+myPlayer.catalog.getPlaylist(playlistId, function (error, playlist) {
+        if (error === null) {
+            console.log(playlist);
+        } else {
+            console.log('error', error);
+        }
+    });
+
+> Note that if something goes wrong, an error will be returned as the first argument of the function - so you should always check to make sure the error is `null` before trying to process the data.
