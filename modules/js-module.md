@@ -190,29 +190,33 @@ videojs("myPlayerID").on('loadedmetadata',function(){
 });
 ```
 
+You will find that the playlist data is an array of video objects - they contain many properties, but two of them will be useful to us here:
 
-You will find that the playlist data is an array of video objects - they contain many properties, but three of them will be useful to us here:
-
-- id : the video id - we'll use this to load the video into the player
 - thumbnail : the is the thumbnail url we've been using
 - name : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text).
 
 To create playlist items, then, we simply need to loop over the playlist items returned, and use the properties of each item to provide values for the attributes of the `img` tag:
 
 ```javascript
-videoItem = playlist[i];
-// create the playlist item and set its class
-playlistItem = document.createElement('div');
-playlistItem.setAttribute('class', 'bcls-playlist-item');
-// create the thumbnail img and set its class
-thumbnailImg = document.createElement('img');
-thumbnailImg.setAttribute('class', 'bcls-thumbnail');
-// set the src for the thumbnail
-thumbnailImg.setAttribute('src', videoItem.thumbnail);
-// set the id for img to the video id - need this to load the video
-thumbnailImg.setAttribute('id', videoItem.id);
-// for best practice, set the alt attribute to the video name
-thumbnailImg.setAttribute('alt', videoItem.name);
+iMax = playlistData.length;
+for (i = 0; i < iMax; i++) {
+    videoItem = playlistData[i];
+    // create the playlist item and set its class
+    playlistItem = document.createElement('div');
+    playlistItem.setAttribute('class', 'bcls-playlist-item');
+    // create the thumbnail img and set its class
+    thumbnailImg = document.createElement('img');
+    thumbnailImg.setAttribute('class', 'bcls-thumbnail');
+    // set the src for the thumbnail
+    thumbnailImg.setAttribute('src', videoItem.thumbnail);
+    // set the id for img to the video id - need this to load the video
+    thumbnailImg.setAttribute('id', i);
+    // for best practice, set the alt attribute to the video name
+    thumbnailImg.setAttribute('alt', videoItem.name);
+    // now append the img to the item, and the item to the playlist
+    playlistItem.appendChild(thumbnailImg);
+    playlistWrapper.appendChild(playlistItem);
+}
 ```
 
 Your task now is to put this into a loop over the returned video items, generating the entire playlist HTML - try it in the JS-Bin below:
