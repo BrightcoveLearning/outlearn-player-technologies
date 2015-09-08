@@ -226,3 +226,4 @@ thumbnailImg.setAttribute('alt', videoItem.name);
 
 
 
+If you need to, [see the solution](https://rcrooks.jsbin.com/qarupo/2/edit?html,css,js,output).
