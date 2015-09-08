@@ -224,6 +224,9 @@ thumbnailImg.setAttribute('id', videoItem.id);
 thumbnailImg.setAttribute('alt', videoItem.name);
 ```
 
+Your task now is to put this into a loop over the returned video items, generating the entire playlist HTML - try it in the JS-Bin below:
+
+<!-- @link, "url" : "https://rcrooks.jsbin.com/qarupo/4/edit?html,css,js,output", "text": "JavaScript Exercise - Generate the Playlist" -->
 
 
 If you need to, [see the solution](https://rcrooks.jsbin.com/qarupo/2/edit?html,css,js,output).
