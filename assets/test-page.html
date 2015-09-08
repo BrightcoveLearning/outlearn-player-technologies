@@ -45,7 +45,8 @@
             videoEl = document.getElementById('myPlayerID'),
             playlistId = videoEl.getAttribute('data-playlist-id'),
             playlistWrapper = document.getElementById('playlistWrapper');
-        videojs("myPlayerID").on('loadedmetadata', function () {
+        // handle loadedmetadata just once, because it fires again with each video load
+        videojs("myPlayerID").one('loadedmetadata', function () {
             var myPlayer = this,
                 i,
                 iMax,
@@ -78,9 +79,8 @@
             iMax = playlistItems.length;
             for (i = 0; i < iMax; i++) {
                 playlistItems[i].addEventListener('click', function () {
-                    console.log(this.id);
-                    myPlayer.playlist.currentItem(this.id);
-                    console.log(myPlayer.playlist.currentItem());
+                    myPlayer.playlist.currentItem(parseInt(this.id));
+                    myPlayer.play();
                 })
             }
         });
