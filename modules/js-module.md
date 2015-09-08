@@ -209,7 +209,9 @@ for (i = 0; i < iMax; i++) {
     thumbnailImg.setAttribute('class', 'bcls-thumbnail');
     // set the src for the thumbnail
     thumbnailImg.setAttribute('src', videoItem.thumbnail);
-    // set the id for img to the video id - need this to load the video
+    /* set the id for img
+     * to the loop index === playlist index
+     */ need this to load the video
     thumbnailImg.setAttribute('id', i);
     // for best practice, set the alt attribute to the video name
     thumbnailImg.setAttribute('alt', videoItem.name);
