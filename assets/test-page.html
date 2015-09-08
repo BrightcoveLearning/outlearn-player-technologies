@@ -70,19 +70,17 @@
                         thumbnailImg.setAttribute('id', videoItem.id);
                         // for best practice, set the alt attribute to the video name
                         thumbnailImg.setAttribute('alt', videoItem.name);
+                        // add event listerer for clicks
+                        thumbnailImg.addEventListener('click', function () {
+                            console.log('playlist handler');
+                            myPlayer.playlist.currentItem(i);
+                        });
                         // now append the img to the item, and the item to the playlist
                         playlistItem.appendChild(thumbnailImg);
                         playlistWrapper.appendChild(playlistItem);
                     }
                 } else {
                     console.log('error', error);
-                }
-                playlistItems = document.getElementsByClassName('bcls-thumbnail');
-                iMax = playlistItems.length;
-                for (i = 0; i < iMax; i++) {
-                    playlistItems[i].addEventListener('click', function () {
-
-                    })
                 }
             });
         });
