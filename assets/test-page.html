@@ -50,6 +50,7 @@
                 i,
                 iMax,
                 playlistItem,
+                playlistItems,
                 thumbnailImg;
             myPlayer.catalog.getPlaylist(playlistId, function (error, playlist) {
                 if (error === null) {
@@ -75,6 +76,13 @@
                     }
                 } else {
                     console.log('error', error);
+                }
+                playlistItems = document.getElementsByClassName('bcls-thumbnail');
+                iMax = playlistItems.length;
+                for (i = 0; i < iMax; i++) {
+                    playlistItems[i].addEventListener('click', function () {
+
+                    })
                 }
             });
         });

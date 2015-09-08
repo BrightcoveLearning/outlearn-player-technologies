@@ -58,9 +58,9 @@ Now let's create the HTML for playlist. Here is a list of URLs for video thumbna
     https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/3572/1752604059001_4454712084001_4454620112001-th.jpg?pubId=1752604059001&videoId=4454620112001
 ```
 
-Now, try it yourself - in the JS-Bin below, find the comment <!-- add playlist here --> and after it add a `ul` tag for the list.
+Now, try it yourself - in the JS-Bin below, find the comment <!-- add playlist here --> and after it add a `div` tag for the overall list.
 
-Inside the `ul` tag, add a list item (`li` tag) for each of the thumbnail URLS, and inside each `li`, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
+Inside the `div` tag, add an additional `div` tag for each of the playlist items, and inside each of these `div` tags, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
 
 ```html
 <div>
