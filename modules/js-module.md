@@ -172,33 +172,24 @@ For a barebones player, the `ready` event is all you need to worry about. Howeve
 ```js
 var myPlayer;
 
-videojs("myPlayerID").on('loadedmetadata',function(){
+videojs("myPlayerID").one('loadedmetadata',function(){
     var myPlayer = this;
 });
 ```
 
-The player has a built-in `catalog` object that will allow you to get playlist data, but first we need to get the playlist id from the attributes. Similar to the `setAttribute()` method that we used earlier, there is a `getAttribute` method that returns the attribute value. So we can get the playlist id this way:
+> Notice the `one('loadedmetadata'...` - you can also use `on`, which will set up a permanent event listener. Using `one` instead allows you to handle the event only the first time it fires - and that is exactly what we want in this case.
+
+The player has a built-in `playlist()` method that will allow you to get playlist data:
 
 ```js
-var videoEl = document.getElementById('myPlayerID'),
-    playlistId = videoEl.getAttribute('data-playlist-id');
+var myPlayer;
+
+videojs("myPlayerID").on('loadedmetadata',function(){
+    var myPlayer = this,
+        playlistData = myPlayer.playlist();
+});
 ```
 
-> By the way, the `data-whatever` attributes were introduced in HTML5 for specifically this purpose: to provide a place to store bits of information associated with an HTML element so that it can be easily retrieved by scripts
-
-Once we have the playlist id, we can get the playlist data using the `catalog.getPlaylist(playlistId, callback)` method. The callback is a function that will handle the returned data - we can define the function somewhere else, or right there in the method call, like this:
-
-```js
-myPlayer.catalog.getPlaylist(playlistId, function (error, playlist) {
-        if (error === null) {
-            console.log(playlist);
-        } else {
-            console.log('error', error);
-        }
-    });
-```
-
-> Note that if something goes wrong, an error will be returned as the first argument of the function - so you should always check to make sure the error is `null` before trying to process the data.
 
 You will find that the playlist data is an array of video objects - they contain many properties, but three of them will be useful to us here:
 
