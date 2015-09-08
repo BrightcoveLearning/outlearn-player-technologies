@@ -51,38 +51,37 @@
                 iMax,
                 playlistItem,
                 playlistItems,
-                thumbnailImg;
-            myPlayer.catalog.getPlaylist(playlistId, function (error, playlist) {
-                if (error === null) {
-                    var videoItem;
-                    iMax = playlist.length;
-                    for (i = 0; i < iMax; i++) {
-                        videoItem = playlist[i];
-                        // create the playlist item and set its class
-                        playlistItem = document.createElement('div');
-                        playlistItem.setAttribute('class', 'bcls-playlist-item');
-                        // create the thumbnail img and set its class
-                        thumbnailImg = document.createElement('img');
-                        thumbnailImg.setAttribute('class', 'bcls-thumbnail');
-                        // set the src for the thumbnail
-                        thumbnailImg.setAttribute('src', videoItem.thumbnail);
-                        // set the id for img to the video id - need this to load the video
-                        thumbnailImg.setAttribute('id', videoItem.id);
-                        // for best practice, set the alt attribute to the video name
-                        thumbnailImg.setAttribute('alt', videoItem.name);
-                        // add event listerer for clicks
-                        thumbnailImg.addEventListener('click', function () {
-                            console.log('playlist handler');
-                            myPlayer.playlist.currentItem(i);
-                        });
-                        // now append the img to the item, and the item to the playlist
-                        playlistItem.appendChild(thumbnailImg);
-                        playlistWrapper.appendChild(playlistItem);
-                    }
-                } else {
-                    console.log('error', error);
-                }
-            });
+                thumbnailImg,
+                playlistData = myPlayer.playlist(),
+                videoItem;
+            console.log(myPlayer.playlist());
+            iMax = playlistData.length;
+            for (i = 0; i < iMax; i++) {
+                videoItem = playlistData[i];
+                // create the playlist item and set its class
+                playlistItem = document.createElement('div');
+                playlistItem.setAttribute('class', 'bcls-playlist-item');
+                // create the thumbnail img and set its class
+                thumbnailImg = document.createElement('img');
+                thumbnailImg.setAttribute('class', 'bcls-thumbnail');
+                // set the src for the thumbnail
+                thumbnailImg.setAttribute('src', videoItem.thumbnail);
+                // set the id for img to the video id - need this to load the video
+                thumbnailImg.setAttribute('id', i);
+                // for best practice, set the alt attribute to the video name
+                thumbnailImg.setAttribute('alt', videoItem.name);
+                // now append the img to the item, and the item to the playlist
+                playlistItem.appendChild(thumbnailImg);
+                playlistWrapper.appendChild(playlistItem);
+            }
+            playlistItems = document.getElementsByClassName('bcls-thumbnail');
+            iMax = playlistItems.length;
+            for (i = 0; i < iMax; i++) {
+                playlistItems[i].addEventListener('click', function () {
+                    console.log(this.id);
+                    myPlayer.playlist.currentItem(this.id);
+                })
+            }
         });
     </script>
 </body>
