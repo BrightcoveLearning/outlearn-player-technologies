@@ -80,6 +80,7 @@
                 playlistItems[i].addEventListener('click', function () {
                     console.log(this.id);
                     myPlayer.playlist.currentItem(this.id);
+                    console.log(myPlayer.playlist.currentItem());
                 })
             }
         });
