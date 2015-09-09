@@ -212,7 +212,7 @@ for (i = 0; i < iMax; i++) {
     /* set the id for img
      * to the loop index === playlist index
      */ need this to load the video
-    thumbnailImg.setAttribute('id', i);
+    thumbnailImg.setAttribute('data-playlist-index', i);
     // for best practice, set the alt attribute to the video name
     thumbnailImg.setAttribute('alt', videoItem.name);
     // now append the img to the item, and the item to the playlist
@@ -225,5 +225,14 @@ Your task now is to put this into a loop over the returned video items, generati
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/qarupo/5/edit?html,css,js,output", "text": "JavaScript Exercise - Generate the Playlist" -->
 
-
 If you need to, [see the solution](https://rcrooks.jsbin.com/qarupo/2/edit?html,css,js,output).
+
+<!-- @section -->
+
+## Handling Events
+
+We now have the playlist built dynamically, but we still need to make it functional, so that when a viewer clicks on a thumbnail, the player plays that video.
+
+A click is an event in JavaScript, and you can add event listeners to elements that allow you to take action when the event occurs. So we need to add an event listener to each of the playlist items. The method is `addEventListener(event, callback)` - the callback is a function that defines the actions to take.
+
+We saw earlier how to get a reference to an element by its id: `document.getElementById()`. In this case we want a reference to a whole collection of elements, though - each of the playlist items. The `document` object has other methods that allow you to get a reference to an element collection - the key is to find one that will identify just those elements you are looking for. The one that will serve here is `document.getElementsByClassName()`, because we assigned the class `bcls-thumbnail` to each of the images, and we are not using that class anywhere else.
