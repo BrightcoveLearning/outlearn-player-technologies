@@ -70,9 +70,9 @@ Let's begin styling our playlist by adding some classes to the HTML (you will no
 
 The syntax is simple: just add the attribute `class="classname"` to the start tag. Try it in the JSBin below:
 
-<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/8/edit?html,css,output", "text": "Add Class Attributes" -->
+<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/15/edit?html,css,output", "text": "Add Class Attributes" -->
 
-You can see the finished code for this exercise here: [CSS Exercise 1 Solution](https://bcls.jsbin.com/jakusi/10/edit?html,css,output)
+You can see the finished code for this exercise here: [CSS Exercise 1 Solution](https://bcls.jsbin.com/jakusi/17/edit?html,css,output)
 
 <!-- @section -->
 
@@ -112,9 +112,9 @@ In the JS-Bin below, go to the CSS section and add the following classes:
 }
 ```
 
-<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/10/edit?html,css,output", "text": "Add CSS Classes" -->
+<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/17/edit?html,css,output", "text": "Add CSS Classes" -->
 
-Got that? If you want to see what it should look like, see [CSS Exercise 2 Solution](https://bcls.jsbin.com/jakusi/11/edit?html,css,output)
+Got that? If you want to see what it should look like, see [CSS Exercise 2 Solution](https://bcls.jsbin.com/jakusi/19/edit?html,css,output)
 
 <!-- @section -->
 
