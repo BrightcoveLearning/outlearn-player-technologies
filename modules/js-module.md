@@ -250,3 +250,7 @@ for (i = 0; i < iMax; i++) {
         // code to handle the event here
     });
 }
+
+
+<iframe height='266' scrolling='no' src='//codepen.io/team/bcls/embed/pjjzRv/?height=266&theme-id=14832&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/team/bcls/pen/pjjzRv/'>Outlearn - Brightcove Player: Final Solution</a> by Brightcove Learning Services (<a href='http://codepen.io/bcls'>@bcls</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
