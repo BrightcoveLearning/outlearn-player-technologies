@@ -79,6 +79,6 @@ Now, try it yourself - in the JS-Bin below, find the comment <!-- playlist items
 
 Did that work? When you finish, the JS-Bin should look like the one below:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/vuqima/8/edit?html,css,output", "text": "Playlist HTML Solution" -->
+[HTML Exercise Solution](https://bcls.jsbin.com/jakusi/6/edit?html,css,output)
 
-So now you are probably thinking: "well, that's not a beautiful playlist...and it doesn't actually play videos." Don't worry about that - HTML is just for structuring content. In the next module, we'll see how we can style the list using CSS. Adding the play-videos functionality will come later.
+So now let's move on to CSS.
