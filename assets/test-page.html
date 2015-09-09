@@ -68,7 +68,7 @@
                 // set the src for the thumbnail
                 thumbnailImg.setAttribute('src', videoItem.thumbnail);
                 // set the id for img to the video id - need this to load the video
-                thumbnailImg.setAttribute('id', i);
+                thumbnailImg.setAttribute('data-playlist-index', i);
                 // for best practice, set the alt attribute to the video name
                 thumbnailImg.setAttribute('alt', videoItem.name);
                 // now append the img to the item, and the item to the playlist
@@ -79,7 +79,8 @@
             iMax = playlistItems.length;
             for (i = 0; i < iMax; i++) {
                 playlistItems[i].addEventListener('click', function () {
-                    myPlayer.playlist.currentItem(parseInt(this.id));
+                    var index = this.getAttribute('data-playlist-index');
+                    myPlayer.playlist.currentItem(parseInt(index));
                     myPlayer.play();
                 })
             }
