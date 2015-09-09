@@ -252,4 +252,21 @@ for (i = 0; i < iMax; i++) {
 }
 ```
 
+We could define the callback function somewhere else and just reference it here by name (and that's actually preferred over creating functions inside a loop), so we will do it like this:
+
+```js
+function loadPlaylistItem() {
+    // code to handle event here
+};
+for (i = 0; i < iMax; i++) {
+    playlistItems[i].addEventListener('click' loadPlaylistItem);
+}
+```
+
+For your last exerise, add the code to the CodePen linked below to add click event handlers to the playlist items:
+
+<!-- @link, "url" : "http://codepen.io/team/bcls/pen/Zbbzxp", "text": "Final Exercise" -->
+
+The link to the final working solution is below:
+
 <!-- @link, "url" : "https://codepen.io/team/bcls/pen/pjjzRv", "text": "Final Solution" -->
