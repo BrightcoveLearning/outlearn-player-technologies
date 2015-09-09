@@ -112,11 +112,9 @@ In the JS-Bin below, go to the CSS section and add the following classes:
 }
 ```
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/zudelu/8/edit?html,css,output", "text": "Add CSS Classes" -->
+<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/10/edit?html,css,output", "text": "Add CSS Classes" -->
 
-Got that? If you want to see what it should look like, see the JS-Bin below:
-
-<!-- @link, "url" : "https://rcrooks.jsbin.com/putime/13/edit?html,css,output", "text": "CSS for the Playlist Finished" -->
+Got that? If you want to see what it should look like, see [CSS Exercise 2 Solution](https://bcls.jsbin.com/jakusi/11/edit?html,css,output)
 
 <!-- @section -->
 
