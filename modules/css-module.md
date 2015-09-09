@@ -72,7 +72,7 @@ The syntax is simple: just add the attribute `class="classname"` to the start ta
 
 <!-- @link, "url" : "https://bcls.jsbin.com/jakusi/8/edit?html,css,output", "text": "Add Class Attributes" -->
 
-You can see the finished code for this exercise here: [CSS Exercise 1](https://rcrooks.jsbin.com/romose/4/edit?html,css,output)
+You can see the finished code for this exercise here: [CSS Exercise 1 Solution](https://bcls.jsbin.com/jakusi/10/edit?html,css,output)
 
 <!-- @section -->
 
