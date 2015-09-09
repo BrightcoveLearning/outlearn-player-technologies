@@ -72,13 +72,13 @@ Now, try it yourself - in the JS-Bin below, find the comment <!-- playlist items
 
 (For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
 
-<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/4/edit?html,css,output", "text": "Add the Playlist Items HTML" -->
+<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/13/edit?html,css,output", "text": "Add the Playlist Items HTML" -->
 
 <!-- @section -->
 ## Wrapping up
 
 Did that work? When you finish, the JS-Bin should look like the one below:
 
-[HTML Exercise Solution](https://bcls.jsbin.com/jakusi/6/edit?html,css,output)
+[HTML Exercise Solution](https://bcls.jsbin.com/jakusi/15/edit?html,css,output)
 
 So now let's move on to CSS.
