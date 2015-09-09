@@ -58,12 +58,11 @@ Now let's create the HTML for playlist. Here is a list of URLs for video thumbna
     https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/3572/1752604059001_4454712084001_4454620112001-th.jpg?pubId=1752604059001&videoId=4454620112001
 ```
 
-Now, try it yourself - in the JS-Bin below, find the comment <!-- add playlist here --> and after it add a `div` tag for the overall list.
-
-Inside the `div` tag, add an additional `div` tag for each of the playlist items, and inside each of these `div` tags, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
+Now, try it yourself - in the JS-Bin below, find the comment <!-- playlist items go here --> and after it add a `div` tag for each of the playlist items, and inside each of these `div` tags, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
 
 ```html
-<div>
+<div id="playlistWrapper" class="bcls-playlist">
+    <!-- playlist items go here -->
     <div>
         <img src="https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/116/1752604059001_4454764366001_4454723119001-th.jpg?pubId=1752604059001&videoId=4454723119001">
     </div>
@@ -73,7 +72,7 @@ Inside the `div` tag, add an additional `div` tag for each of the playlist items
 
 (For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/joteni/11/edit?html,css,output", "text": "Add the Playlist HTML" -->
+<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/4/edit?html,css,output", "text": "Add the Playlist Items HTML" -->
 
 <!-- @section -->
 ## Wrapping up
