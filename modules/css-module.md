@@ -63,15 +63,14 @@ The prefix can be anything you like. The `bcls` shown here is what we use as an 
 
 ## Add Classes to Your HTML Code
 
-Let's begin styling our playlist by adding some classes to the HTML:
+Let's begin styling our playlist by adding some classes to the HTML (you will notice that the `div` that wraps the playlist already has a class):
 
-- `div` tag for the overall list: class: bcls-playlist
 - `div` tags for the individual items: class: bcls-playlist-item
 - `img` tags: class: bcls-thumbnail
 
 The syntax is simple: just add the attribute `class="classname"` to the start tag. Try it in the JSBin below:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/yiyaga/2/edit?html,css,output", "text": "Add Class Attributes" -->
+<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/8/edit?html,css,output", "text": "Add Class Attributes" -->
 
 You can see the finished code for this exercise here: [CSS Exercise 1](https://rcrooks.jsbin.com/romose/4/edit?html,css,output)
 

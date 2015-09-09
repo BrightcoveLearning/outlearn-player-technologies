@@ -235,4 +235,16 @@ We now have the playlist built dynamically, but we still need to make it functio
 
 A click is an event in JavaScript, and you can add event listeners to elements that allow you to take action when the event occurs. So we need to add an event listener to each of the playlist items. The method is `addEventListener(event, callback)` - the callback is a function that defines the actions to take.
 
-We saw earlier how to get a reference to an element by its id: `document.getElementById()`. In this case we want a reference to a whole collection of elements, though - each of the playlist items. The `document` object has other methods that allow you to get a reference to an element collection - the key is to find one that will identify just those elements you are looking for. The one that will serve here is `document.getElementsByClassName()`, because we assigned the class `bcls-thumbnail` to each of the images, and we are not using that class anywhere else.
+We saw earlier how to get a reference to an element by its id: `document.getElementById()`. In this case we want a reference to a whole collection of elements, though - each of the playlist items. The `document` object has other methods that allow you to get a reference to an element collection - the key is to find one that will identify just those elements you are looking for. The one that will serve here is `document.getElementsByClassName()`, because we assigned the class `bcls-thumbnail` to each of the images, and we are not using that class anywhere else:
+
+```js
+var playlistItems = document.getElementsByClassName('bcls-thumbnail');
+```
+
+A collection of elements is a special kind of data entity in JavaScript, but for our purposes, it behave like an array, with a `length` property to tell us how many elements are in the collection. Thus we can loop over the collection like an array to add the event listerners:
+
+```js
+var iMax = playlistItems.length;
+for (i = 0; i < iMax; i++) {
+
+}
