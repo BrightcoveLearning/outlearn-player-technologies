@@ -73,14 +73,15 @@
                 playlistItem.appendChild(thumbnailImg);
                 playlistWrapper.appendChild(playlistItem);
             }
+            function loadPlaylistItem () {
+                var index = this.getAttribute('data-playlist-index');
+                myPlayer.playlist.currentItem(parseInt(index));
+                myPlayer.play();
+            };
             playlistItems = document.getElementsByClassName('bcls-thumbnail');
             iMax = playlistItems.length;
             for (i = 0; i < iMax; i++) {
-                playlistItems[i].addEventListener('click', function () {
-                    var index = this.getAttribute('data-playlist-index');
-                    myPlayer.playlist.currentItem(parseInt(index));
-                    myPlayer.play();
-                });
+                playlistItems[i].addEventListener('click', loadPlaylistItem);
             }
         });
     </script>
