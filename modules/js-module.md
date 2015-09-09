@@ -252,6 +252,4 @@ for (i = 0; i < iMax; i++) {
 }
 ```
 
-<p data-height="266" data-theme-id="14832" data-slug-hash="pjjzRv" data-default-tab="result" data-user="bcls" class='codepen'>See the Pen <a href='http://codepen.io/team/bcls/pen/pjjzRv/'>Outlearn - Brightcove Player: Final Solution</a> by Brightcove Learning Services (<a href='http://codepen.io/bcls'>@bcls</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</iframe>
+<!-- @link, "url" : "http://codepen.io/team/bcls/pen/pjjzRv", "text": "Final Solution" -->
