@@ -177,7 +177,7 @@ videojs("myPlayerID").one('loadedmetadata',function(){
 });
 ```
 
-> Notice the `one('loadedmetadata'...` - you can also use `on`, which will set up a permanent event listener. Using `one` instead allows you to handle the event only the first time it fires - and that is exactly what we want in this case.
+> Notice the **one**`('loadedmetadata'...` - you can also use `on`, which will set up a permanent event listener. Using `one` instead allows you to handle the event only the first time it fires - and that is exactly what we want in this case.
 
 The player has a built-in `playlist()` method that will allow you to get playlist data:
 
@@ -241,10 +241,12 @@ We saw earlier how to get a reference to an element by its id: `document.getElem
 var playlistItems = document.getElementsByClassName('bcls-thumbnail');
 ```
 
-A collection of elements is a special kind of data entity in JavaScript, but for our purposes, it behave like an array, with a `length` property to tell us how many elements are in the collection. Thus we can loop over the collection like an array to add the event listerners:
+A collection of elements is a special kind of data entity in JavaScript, but for our purposes, it behave like an array, with a `length` property to tell us how many elements are in the collection. Thus we can loop over the collection like an array to add the event listeners:
 
 ```js
 var iMax = playlistItems.length;
 for (i = 0; i < iMax; i++) {
-
+    playlistItems[i].addEventListener('click' function () {
+        // code to handle the event here
+    });
 }

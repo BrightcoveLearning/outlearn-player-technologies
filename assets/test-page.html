@@ -42,10 +42,8 @@
     </div>
     <script id="jsbin-javascript">
         var myPlayer,
-            videoEl = document.getElementById('myPlayerID'),
-            playlistId = videoEl.getAttribute('data-playlist-id'),
             playlistWrapper = document.getElementById('playlistWrapper');
-        // handle loadedmetadata just once, because it fires again with each video load
+        // handle loadedmetadata just once, it fires again with each video load
         videojs("myPlayerID").one('loadedmetadata', function () {
             var myPlayer = this,
                 i,
@@ -67,7 +65,7 @@
                 thumbnailImg.setAttribute('class', 'bcls-thumbnail');
                 // set the src for the thumbnail
                 thumbnailImg.setAttribute('src', videoItem.thumbnail);
-                // set the id for img to the video id - need this to load the video
+                // save the index - need this to load the video
                 thumbnailImg.setAttribute('data-playlist-index', i);
                 // for best practice, set the alt attribute to the video name
                 thumbnailImg.setAttribute('alt', videoItem.name);
@@ -82,7 +80,7 @@
                     var index = this.getAttribute('data-playlist-index');
                     myPlayer.playlist.currentItem(parseInt(index));
                     myPlayer.play();
-                })
+                });
             }
         });
     </script>
