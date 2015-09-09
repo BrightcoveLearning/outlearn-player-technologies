@@ -73,6 +73,7 @@
                 playlistItem.appendChild(thumbnailImg);
                 playlistWrapper.appendChild(playlistItem);
             }
+            // function to load playlist items on click
             function loadPlaylistItem () {
                 var index = this.getAttribute('data-playlist-index');
                 myPlayer.playlist.currentItem(parseInt(index));
