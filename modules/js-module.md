@@ -295,8 +295,8 @@ function loadPlaylistItem () {
 
 For your last exercise, add the code to the CodePen linked below to add click event handlers to the playlist items:
 
-<!-- @link, "url" : "http://codepen.io/team/bcls/pen/Zbbzxp", "text": "Final Exercise" -->
+<!-- @link, "url" : "https://codepen.io/team/bcls/pen/Zbbzxp", "text": "Final Exercise" -->
 
 The link to the final working solution is below:
 
-<!-- @link, "url" : "http://codepen.io/team/bcls/pen/pjjzRv", "text": "Final Solution" -->
+<!-- @link, "url" : "https://codepen.io/team/bcls/pen/pjjzRv", "text": "Final Solution" -->
