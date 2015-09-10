@@ -122,13 +122,13 @@ You can [`setAttribute`](https://developer.mozilla.org/en-US/docs/Web/API/Elemen
 element.setAttribute('attribute name', 'value')
 ```
 
-> Note that there is a companion `getAttribute('attribute-name')` method that retrieves the value of an attribute - we will need this later.
+> Note that there is a companion [`getAttribute`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute) method that retrieves the value of an attribute - we will need this later.
 
-In the CodePen below, try adding an `img` tag to the `div` tag, and set the `src` attribute for the image to `https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output` (you'll find this url in a comment in the bin):
+In the CodePen below, try adding an `img` tag to the `div` tag, and set the `src` attribute for the image to the CodePen below (you'll find this url in a comment in the CodePen):
 
 <!-- @link, "url" : "https://codepen.io/team/bcls/pen/gaaMva", "text": "JavaScript Exercide 2" -->
 
-Got it? If you don't see the image, check [the solution](https://rcrooks.jsbin.com/lafuju/4/edit?html,js,output).
+Got it? If you don't see the image, check [the solution](https://codepen.io/team/bcls/pen/OyymwG).
 
 <!-- @section -->
 ## Working with the Brightcove Player
@@ -149,7 +149,7 @@ Ok, so the playlist data is there, and the player provides us a nice way to get 
 
 ### Player events
 
-The player emits a bunch of events. The ones that we need to know about now are the ones that are emitted when the player is loaded on the page. The first one that matters is the ready event, which signifies that the basic player is ready to interact with.
+The player emits a bunch of events. The ones that we need to know about now are the ones that are emitted when the player is loaded on the page. The first one that matters is the `ready` event, which signifies that the basic player is ready to interact with.
 
 To make it easy to interact with your player, add an `id` to the video tag:
 
@@ -188,7 +188,7 @@ videojs("myPlayerID").one('loadedmetadata',function(){
 
 > Notice the **one**`('loadedmetadata'...` - you can also use `on`, which will set up a permanent event listener. Using `one` instead allows you to handle the event only the first time it fires - and that is exactly what we want in this case. Be aware that a new `loadedmetadata` event will be emitted whenever new media is loaded into the player.
 
-The player has a built-in `playlist()` method that will allow you to get playlist data:
+The player playlist object has a built-in [`playlist()`](http://docs.brightcove.com/en/video-cloud/brightcove-player/guides/playlist-api.html#playlist) method that will allow you to get playlist data:
 
 ```js
 var myPlayer;
@@ -201,8 +201,8 @@ videojs("myPlayerID").on('loadedmetadata',function(){
 
 You will find that the playlist data is an array of video objects - they contain many properties, but two of them will be useful to us here:
 
-- thumbnail : the is the thumbnail url we've been using
-- name : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text for accessibility).
+- `thumbnail` : the is the thumbnail url we've been using
+- `name` : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text for accessibility).
 
 To create playlist items, then, we simply need to loop over the playlist items returned, and use the properties of each item to provide values for the attributes of the `img` tag:
 
