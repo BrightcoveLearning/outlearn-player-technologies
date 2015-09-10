@@ -195,7 +195,7 @@ videojs("myPlayerID").on('loadedmetadata',function(){
 You will find that the playlist data is an array of video objects - they contain many properties, but two of them will be useful to us here:
 
 - thumbnail : the is the thumbnail url we've been using
-- name : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text).
+- name : the video title - we could display it, but here we will just use it as the `alt` text for the thumbnail images (it's always good to include alt text for accessibility).
 
 To create playlist items, then, we simply need to loop over the playlist items returned, and use the properties of each item to provide values for the attributes of the `img` tag:
 
@@ -279,7 +279,9 @@ var index = this.getAttribute('data-playlist-index');
 myPlayer.playlist.currentItem(index);
 ```
 
+> Note the `this` keyword - in JavaScript event handlers, it automatically refers to the element that *you added the event listener to*.
 
+The only problem with this is that all HTML attribute values are returned as strings, but the `currentItem()` method expects an integer - `"2"` does **not** equal `2`.
 
 For your last exercise, add the code to the CodePen linked below to add click event handlers to the playlist items:
 
