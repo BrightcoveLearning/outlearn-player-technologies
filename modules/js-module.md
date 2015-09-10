@@ -281,7 +281,17 @@ myPlayer.playlist.currentItem(index);
 
 > Note the `this` keyword - in JavaScript event handlers, it automatically refers to the element that *you added the event listener to*.
 
-The only problem with the code above is that all HTML attribute values are returned as strings, but the `currentItem()` method expects an integer - `"2"` does **not** equal `2`. JavaScript has an easy fix for this, however: a `parseInt()` function that automatically converts whatever you pass to in to an integer
+The only problem with the code above is that all HTML attribute values are returned as strings, but the `currentItem()` method expects an integer - `"2"` does **not** equal `2`. JavaScript has an easy fix for this, however: a `parseInt()` function that automatically converts whatever you pass to in to an integer: `parseInt('2') // = 2`.
+
+The last thing we need to do is play the selected video, and of course the player has a `play()` method. So our full event listener looks like this:
+
+```js
+function loadPlaylistItem () {
+    var index = this.getAttribute('data-playlist-index');
+    myPlayer.playlist.currentItem(parseInt(index));
+    myPlayer.play();
+};
+```
 
 For your last exercise, add the code to the CodePen linked below to add click event handlers to the playlist items:
 
