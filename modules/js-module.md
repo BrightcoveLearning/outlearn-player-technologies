@@ -119,7 +119,7 @@ element.setAttribute('attribute name', 'value')
 
 In the CodePen below, try adding an `img` tag to the `div` tag, and set the `src` attribute for the image to `https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output` (you'll find this url in a comment in the bin):
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output", "text": "JavaScript Exercide 2" -->
+<!-- @link, "url" : "https://codepen.io/team/bcls/pen/gaaMva", "text": "JavaScript Exercide 2" -->
 
 Got it? If you don't see the image, check [the solution](https://rcrooks.jsbin.com/lafuju/4/edit?html,js,output).
 
