@@ -16,11 +16,18 @@
 
 If you already know the basics of JavaScript, you can move right on to the next section. If you're just starting, however, there is a lot of complexity to JavaScript, and you need to learn the basic features of the language. Here's a very good tutorial for beginners:
 
-<!-- @link, "url" : "http://www.referencedesigner.com/tutorials/js/js_1.php", "text": "JavaScript Tutorial" -->
+<!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript", "text": "JavaScript Tutorial" -->
 
-Take your time with that - practice spent on the basics will help you later on. In particular, you need to understand events, because much of the scripting you do in relation to the player will be in response to some event. You also need to feel comfortable with data structures like objects and arrays.
+Take your time with that - practice spent on the basics will help you later on. Some basic things you need to know about are:
 
-Take, for example, an  array of simple video objects:
+- [declaring variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#Declarations)
+- [conditional statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Conditional_statements)
+- [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+- [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+You also need to understand [events](https://developer.mozilla.org/en-US/docs/Web/Events), because much of the scripting you do in relation to the player will be in response to some event. You also need to feel comfortable with data structures like objects and arrays.
+
+Take, for example, an  [array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) of simple video [objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object):
 
 ```js
 var items = [
@@ -61,21 +68,21 @@ In the CodePen below, you'll find the same code - try modifying it: instead of j
 
 `document.write` is a handy method of the `document` object, but it's limited. Fortunately, JavaScript has much more sophisticated ways of adding HTML content.
 
-### `createElement()` and `appendChild()`
+### [`document.createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) and [`[element].appendChild()`](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/appendChild)
 
-You can add new HTML elements to a page using the [`document.createElement()`](http://www.w3schools.com/js/js_htmldom_nodes.asp):
+You can add new HTML elements to a page using the `document.createElement()`:
 
 ```js
 var newEl = document.create.Element('img');
 ```
 
-However, although `newEl` is part of the DOM (document object model), it won't appear on the page until you add it to some element that is already there using [`appendChild()`](http://www.w3schools.com/js/js_htmldom_nodes.asp). If you wanted to put the new element at the end of the page, you could simply use:
+However, although `newEl` is part of the DOM (document object model), it won't appear on the page until you add it to some element that is already there using `appendChild()`. If you wanted to put the new element at the end of the page, you could simply use:
 
 ```js
 document.appendChild(newEl);
 ```
 
-In most cases though, you will want to put the new element in a specific place, The easiest way to do this is to get a reference to the tag you want to put your new element inside using [`document.getElementById()`](http://www.w3schools.com/js/js_htmldom_elements.asp):
+In most cases though, you will want to put the new element in a specific place, The easiest way to do this is to get a reference to the tag you want to put your new element inside using [`document.getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById):
 
 ```html
 <div id="myDiv"></div>
@@ -109,7 +116,7 @@ newStrongEl.appendChild(newText);
 
 #### Adding/modifying attributes
 
-You can set attributes for new or existing elements using:
+You can [`setAttribute`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute) for new or existing elements using:
 
 ```js
 element.setAttribute('attribute name', 'value')
