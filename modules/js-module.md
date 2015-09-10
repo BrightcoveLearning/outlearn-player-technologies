@@ -51,7 +51,7 @@ for (i = 0; i < iMax; i++) {
 
 In the JS-Bin below, you'll find the same code - try modifying it: instead of just adding &lt;br&gt; tag at the end of each line, wrap each line in a &lt;p&gt; tag.
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/lifoko/4/edit?html,js,output", "text": "JavaScript Exercise 1" -->
+<!-- @link, "url" : "https://codepen.io/team/bcls/pen/XmmKgq", "text": "JavaScript Exercise 1" -->
 
 > Tip: all browsers include Developer Tools, one of which is a JavaScript console. You can dump any variable by including `console.log(variable_name)` in your code. And JS-Bins also include a console you can use in the same way.
 
