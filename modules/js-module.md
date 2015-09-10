@@ -112,8 +112,10 @@ newStrongEl.appendChild(newText);
 You can set attributes for new or existing elements using:
 
 ```js
-setAttribute('attribute name', 'value')
+element.setAttribute('attribute name', 'value')
 ```
+
+> Note that there is a companion `getAttribute('attribute-name')` method that retrieves the value of an attribute - we will need this later.
 
 In the JS-Bin below, try adding an `img` tag to the `div` tag, and set the `src` attribute for the image to `https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output` (you'll find this url in a comment in the bin):
 
@@ -263,7 +265,22 @@ for (i = 0; i < iMax; i++) {
 }
 ```
 
-For your last exerise, add the code to the CodePen linked below to add click event handlers to the playlist items:
+What we need to do in the function to handle the events is load the appropriate item from the playlist into the player, and then play it.
+
+The player `playlist` object has a useful method for setting the current video: `myPlayer.playlist.currentItem(item_index)`. How do we get the correct item index? Easy, because we set it as the `data-playlist-index` attribute of the image tags as we were creating them.
+
+> `data-whatever` attributes were added to HTML5 precisely for this purpose - to store bits of data so you could retrieve them via JavaScript.
+
+So we could do something like this:
+
+```js
+var index = this.getAttribute('data-playlist-index');
+myPlayer.playlist.currentItem(index);
+```
+
+
+
+For your last exercise, add the code to the CodePen linked below to add click event handlers to the playlist items:
 
 <!-- @link, "url" : "http://codepen.io/team/bcls/pen/Zbbzxp", "text": "Final Exercise" -->
 
