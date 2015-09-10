@@ -9,7 +9,7 @@ This learning path doesn't offer full tutorials on any of the technologies - tha
 
 Below is the solution - a custom playlist player that you will learn to build over the course of this tutorial:
 
-<iframe src="//solutions.brightcove.com/bcls/tests/outlearn-player-solution.html" width="600" height="500"></iframe>
+<iframe src="//solutions.brightcove.com/bcls/tests/outlearn-player-solution.html" width="500" height="600"></iframe>
 
 ## HTML
 HTML is the simplest of the three languages, and the least important one in this context, as the player itself includes all the HTML it needs. However, you may need to add additional HTML for `text tracks`, which can be used to display captions or subtitles, or to specify chapters within the video. You might also want to display a video playlist. We'll focus on the HTML you need to do these things.
