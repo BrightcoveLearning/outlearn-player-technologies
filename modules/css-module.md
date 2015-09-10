@@ -68,11 +68,11 @@ Let's begin styling our playlist by adding some classes to the HTML (you will no
 - `div` tags for the individual items: class: bcls-playlist-item
 - `img` tags: class: bcls-thumbnail
 
-The syntax is simple: just add the attribute `class="classname"` to the start tag. Try it in the JSBin below:
+The syntax is simple: just add the attribute `class="classname"` to the start tag. Try it in the CodePen linked below:
 
-<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/15/edit?html,css,output", "text": "Add Class Attributes" -->
+<!-- @link, "url" : "https://codepen.io/team/bcls/pen/qOORog", "text": "Add Class Attributes" -->
 
-You can see the finished code for this exercise here: [CSS Exercise 1 Solution](https://bcls.jsbin.com/jakusi/17/edit?html,css,output)
+You can see the finished code for this exercise here: [CSS Exercise 1 Solution](https://codepen.io/team/bcls/pen/OyyWZN)
 
 <!-- @section -->
 
@@ -80,11 +80,11 @@ You can see the finished code for this exercise here: [CSS Exercise 1 Solution](
 
 Now that we've added classes to the HTML tags, we need to add the CSS that defines the way we want our playlist to look.
 
-For the overall list, we will constrain it to match the width of the player, and height to present one row of images. We'll set the margin and padding to 0, and we don't want bullets, so we'll set `list-style-type` to `none`. Since all the thumbnails will not fit in the player width, we will also define the `overflow-x` property to allow the list to scroll horizontally, and set the `overflow-y` property to `hidden` so that the list won't scroll vertically.. By default, though, extra list items would roll over to a new row, so we'll prevent that by setting `white-space` to `nowrap`.
+For the overall list, we will constrain it to match the width of the player, and height to present one row of images. We'll set the margin and padding to 0, and we don't want bullets, so we'll set [`list-style-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type) to `none`. Since all the thumbnails will not fit in the player width, we will also define the [`overflow-x`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x) property to allow the list to scroll horizontally, and set the [`overflow-y`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y) property to `hidden` so that the list won't scroll vertically.. By default, though, extra list items would roll over to a new row, so we'll prevent that by setting [`white-space`](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) to `nowrap`.
 
-For the list items, first of all, we want the thumbnails to be laid out horizontally rather than vertically. To do this, we will use the `display` property, setting it to `inline-block`. We'll also set `margin` and `padding` to `0`, and set the `width` of the items to avoid white space between them.
+For the list items, first of all, we want the thumbnails to be laid out horizontally rather than vertically. To do this, we will use the [`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display) property, setting it to `inline-block`. We'll also set [`margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) and [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) to `0`, and set the `width` of the items to avoid white space between them.
 
-For the images, we will add a border to set them off from one another (using the background color the player to give the list an integrated look), and resize the images using the width and height properties to fit four images across the bottom of the player. Finally we'll add the `cursor` property, setting it to `pointer` so that it's more obvious that clicking on the images will do something.
+For the images, we will add a [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border) to set them off from one another (using the [`background-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) the player to give the list an integrated look), and resize the images using the width and height properties to fit four images across the bottom of the player. Finally we'll add the [`cursor`](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) property, setting it to `pointer` so that it's more obvious that clicking on the images will do something.
 
 In the CodePen below, go to the CSS section and add the following classes:
 
@@ -112,9 +112,9 @@ In the CodePen below, go to the CSS section and add the following classes:
 }
 ```
 
-<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/17/edit?html,css,output", "text": "Add CSS Classes" -->
+<!-- @link, "url" : "https://codepen.io/team/bcls/pen/OyyWZN", "text": "Add CSS Classes" -->
 
-Got that? If you want to see what it should look like, see [CSS Exercise 2 Solution](https://bcls.jsbin.com/jakusi/19/edit?html,css,output)
+Got that? If you want to see what it should look like, see [CSS Exercise 2 Solution](https://codepen.io/team/bcls/pen/ZbbLjx)
 
 <!-- @section -->
 
@@ -126,4 +126,4 @@ And what if you wanted to [make the player responsive](http://docs.brightcove.co
 
 A better approach would be to wrap the whole player and playlist in another `div` tag. Then you could set the width of the player and playlist to `100%` of the wrapper `div` width, and then just set the width on the wrapper, like the example in the CodePen below:
 
-<!-- @link, "url" : "https://bcls.jsbin.com/wanasu/3/edit?html,css,output", "text": "Video Player and Playlist in DIV Wrapper" -->
+<!-- @link, "url" : "http://codepen.io/team/bcls/pen/pjjROd", "text": "Video Player and Playlist in DIV Wrapper" -->
