@@ -138,11 +138,11 @@ We now have almost all the JavaScript tools we need to build our playlist dynami
 </video>
 ```
 
-Ok, so the playlist data is there, and the player provides us a nice way to get to it. But first we need to back up a little to see how we write JavaScript to interact with the player.
+Ok, so the playlist data is there, and the player provides us a nice way to get to it. But first we need to back up a little to see how we write JavaScript to interact with the player. If we try to do it too soon, errors will occur - the key is to listen for player events to know when it's ready for us.
 
 ### Player events
 
-The player emits a bunch of events. The ones that we need to know about now are the ones that are emitted when the player is loaded on the page. The first one that matters is the ready event, which signifies that the player is ready to interact with.
+The player emits a bunch of events. The ones that we need to know about now are the ones that are emitted when the player is loaded on the page. The first one that matters is the ready event, which signifies that the basic player is ready to interact with.
 
 To make it easy to interact with your player, add an `id` to the video tag:
 
@@ -179,7 +179,7 @@ videojs("myPlayerID").one('loadedmetadata',function(){
 });
 ```
 
-> Notice the **one**`('loadedmetadata'...` - you can also use `on`, which will set up a permanent event listener. Using `one` instead allows you to handle the event only the first time it fires - and that is exactly what we want in this case.
+> Notice the **one**`('loadedmetadata'...` - you can also use `on`, which will set up a permanent event listener. Using `one` instead allows you to handle the event only the first time it fires - and that is exactly what we want in this case. Be aware that a new `loadedmetadata` event will be emitted whenever new media is loaded into the player.
 
 The player has a built-in `playlist()` method that will allow you to get playlist data:
 
