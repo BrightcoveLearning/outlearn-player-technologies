@@ -86,7 +86,7 @@ For the list items, first of all, we want the thumbnails to be laid out horizont
 
 For the images, we will add a border to set them off from one another (using the background color the player to give the list an integrated look), and resize the images using the width and height properties to fit four images across the bottom of the player. Finally we'll add the `cursor` property, setting it to `pointer` so that it's more obvious that clicking on the images will do something.
 
-In the JS-Bin below, go to the CSS section and add the following classes:
+In the CodePen below, go to the CSS section and add the following classes:
 
 ```css
 .bcls-playlist {
@@ -124,6 +124,6 @@ What we did here is fine, but it has the limitation that the width of the playli
 
 And what if you wanted to [make the player responsive](http://docs.brightcove.com/en/video-cloud/brightcove-player/samples/responsive-sizing.html)?
 
-A better approach would be to wrap the whole player and playlist in another `div` tag. Then you could set the width of the player and playlist to `100%` of the wrapper `div` width, and then just set the width on the wrapper, like the example in the JS-Bin below:
+A better approach would be to wrap the whole player and playlist in another `div` tag. Then you could set the width of the player and playlist to `100%` of the wrapper `div` width, and then just set the width on the wrapper, like the example in the CodePen below:
 
 <!-- @link, "url" : "https://bcls.jsbin.com/wanasu/3/edit?html,css,output", "text": "Video Player and Playlist in DIV Wrapper" -->

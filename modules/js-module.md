@@ -49,11 +49,11 @@ for (i = 0; i < iMax; i++) {
 }
 ```
 
-In the JS-Bin below, you'll find the same code - try modifying it: instead of just adding &lt;br&gt; tag at the end of each line, wrap each line in a &lt;p&gt; tag.
+In the CodePen below, you'll find the same code - try modifying it: instead of just adding &lt;br&gt; tag at the end of each line, wrap each line in a &lt;p&gt; tag.
 
 <!-- @link, "url" : "https://codepen.io/team/bcls/pen/XmmKgq", "text": "JavaScript Exercise 1" -->
 
-> Tip: all browsers include Developer Tools, one of which is a JavaScript console. You can dump any variable by including `console.log(variable_name)` in your code. And JS-Bins also include a console you can use in the same way.
+> Tip: all browsers include Developer Tools, one of which is a JavaScript console. You can dump any variable by including `console.log(variable_name)` in your code. And CodePens also include a console you can use in the same way.
 
 <!-- @section -->
 
@@ -117,7 +117,7 @@ element.setAttribute('attribute name', 'value')
 
 > Note that there is a companion `getAttribute('attribute-name')` method that retrieves the value of an attribute - we will need this later.
 
-In the JS-Bin below, try adding an `img` tag to the `div` tag, and set the `src` attribute for the image to `https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output` (you'll find this url in a comment in the bin):
+In the CodePen below, try adding an `img` tag to the `div` tag, and set the `src` attribute for the image to `https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output` (you'll find this url in a comment in the bin):
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/lafuju/2/edit?html,js,output", "text": "JavaScript Exercide 2" -->
 
@@ -224,7 +224,7 @@ for (i = 0; i < iMax; i++) {
 }
 ```
 
-Your task now is to put this into a loop over the returned video items, generating the entire playlist HTML - try it in the JS-Bin below:
+Your task now is to put this into a loop over the returned video items, generating the entire playlist HTML - try it in the CodePen below:
 
 <!-- @link, "url" : "https://rcrooks.jsbin.com/qarupo/5/edit?html,css,js,output", "text": "JavaScript Exercise - Generate the Playlist" -->
 

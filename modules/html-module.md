@@ -58,7 +58,7 @@ Now let's create the HTML for playlist. Here is a list of URLs for video thumbna
     https://bcsecure01-a.akamaihd.net/6/1752604059001/201508/3572/1752604059001_4454712084001_4454620112001-th.jpg?pubId=1752604059001&videoId=4454620112001
 ```
 
-Now, try it yourself - in the JS-Bin below, find the comment <!-- playlist items go here --> and after it add a `div` tag for each of the playlist items, and inside each of these `div` tags, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
+Now, try it yourself - in the CodePen below, find the comment <!-- playlist items go here --> and after it add a `div` tag for each of the playlist items, and inside each of these `div` tags, add an `img` tag with the `src` attribute set equal to the thumbnail URL. The code for the list will look like this:
 
 ```html
 <div id="playlistWrapper" class="bcls-playlist">
@@ -77,7 +77,7 @@ Now, try it yourself - in the JS-Bin below, find the comment <!-- playlist items
 <!-- @section -->
 ## Wrapping up
 
-Did that work? When you finish, the JS-Bin should look like the one below:
+Did that work? When you finish, the CodePen should look like the one below:
 
 [HTML Exercise Solution](https://bcls.jsbin.com/jakusi/15/edit?html,css,output)
 
