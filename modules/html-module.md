@@ -18,7 +18,7 @@ We're guessing that if you got here, you already know basic HTML, but if don't, 
 
 If you're a total beginner with HTML, go here to get the basics:
 
-<!-- @link, "url" : "http://www.htmldog.com/guides/html/beginner/", "text": "Getting Started with HTML" -->
+<!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/HTML", "text": "Getting Started with HTML" -->
 
 Once you get the basics, go on to the next module.
 
@@ -32,13 +32,13 @@ As you know, the player has built-in capability to add a vertical playlist on th
 
 The HTML we're going to use is the simple `div` tag, an all-purpose container. If you're not familiar with it, you can read all about it here:
 
-<!-- @link, "url" : "http://mdn.beonex.com/en/HTML/Element/div.html", "text": "The DIV Tag" -->
+<!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div", "text": "The DIV Tag" -->
 
 We will be using two levels of divs: one to wrap the whole list, and another for each item.
 
 You will also need to use `img` tags to display the video thumbnails, so if you need to learn about that tag, go here:
 
-<!-- @link, "url" : "http://mdn.beonex.com/en/HTML/Element/img.html", "text": "The IMG Tag" -->
+<!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img", "text": "The IMG Tag" -->
 
 Now let's create the HTML for playlist. Here is a list of URLs for video thumbnails (don't worry about where they are coming from - we're going to deal with that later):
 
@@ -72,13 +72,13 @@ Now, try it yourself - in the CodePen below, find the comment <!-- playlist item
 
 (For convenience, the list of URLs is included in the JS Bin after the comment in the HTML.)
 
-<!-- @link, "url" : "https://bcls.jsbin.com/jakusi/13/edit?html,css,output", "text": "Add the Playlist Items HTML" -->
+<!-- @link, "url" : "https://codepen.io/team/bcls/pen/meeOJx", "text": "Add the Playlist Items HTML" -->
 
 <!-- @section -->
 ## Wrapping up
 
-Did that work? When you finish, the CodePen should look like the one below:
+Did that work? When you finish, the CodePen should look like the one linked below:
 
-[HTML Exercise Solution](https://bcls.jsbin.com/jakusi/15/edit?html,css,output)
+[HTML Exercise Solution](https://codepen.io/team/bcls/pen/xwwRwR)
 
 So now let's move on to CSS.
