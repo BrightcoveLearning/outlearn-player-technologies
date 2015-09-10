@@ -20,7 +20,7 @@ In the last module, we covered a little bit of HTML to see how you can add conte
 
 CSS itself is a pretty simple language to learn. As with HTML we're going to assume here that you have some familiarity with it already, but if that's not the case, you'll find a great getting started tutorial here:
 
-<!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started", "text": "MDN CSS Tutorial" -->
+<!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/CSS", "text": "MDN CSS Tutorial" -->
 
 <!-- @section -->
 
