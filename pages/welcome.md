@@ -1,4 +1,4 @@
-# Welcome to the Technologies for Player Developers Learning Path
+# Welcome to the Brightcove Player Technologies Learning Path
 This learning path is designed for developers who will be working with the Brightcove Player.
 
 Since the player is built with web technologies - HTML, CSS, and JavaScript - you need skills in these technologies to effectively work with the player.
