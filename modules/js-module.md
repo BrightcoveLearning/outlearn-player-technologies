@@ -68,7 +68,7 @@ In the CodePen below, you'll find the same code - try modifying it: instead of j
 
 `document.write` is a handy method of the `document` object, but it's limited. Fortunately, JavaScript has much more sophisticated ways of adding HTML content.
 
-### [`document.createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) and [`[element].appendChild()`](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/appendChild)
+### [`document.createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) and [`[element].appendChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
 You can add new HTML elements to a page using the `document.createElement()`:
 
