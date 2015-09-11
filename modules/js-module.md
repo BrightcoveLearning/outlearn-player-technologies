@@ -233,9 +233,9 @@ for (i = 0; i < iMax; i++) {
 
 Your task now is to put this into a loop over the returned video items, generating the entire playlist HTML - try it in the CodePen below:
 
-<!-- @link, "url" : "https://rcrooks.jsbin.com/qarupo/5/edit?html,css,js,output", "text": "JavaScript Exercise - Generate the Playlist" -->
+<!-- @link, "url" : "http://codepen.io/team/bcls/pen/Lppyvm", "text": "JavaScript Exercise - Generate the Playlist" -->
 
-If you need to, [see the solution](https://rcrooks.jsbin.com/qarupo/2/edit?html,css,js,output).
+If you need to, [see the solution](https://codepen.io/team/bcls/pen/yYYpQw).
 
 <!-- @section -->
 
@@ -275,7 +275,7 @@ for (i = 0; i < iMax; i++) {
 
 What we need to do in the function to handle the events is load the appropriate item from the playlist into the player, and then play it.
 
-The player `playlist` object has a useful method for setting the current video: `myPlayer.playlist.currentItem(item_index)`. How do we get the correct item index? Easy, because we set it as the `data-playlist-index` attribute of the image tags as we were creating them.
+The player `playlist` object has a useful method for setting the current video: [`myPlayer.playlist.currentItem(item_index)`](http://docs.brightcove.com/en/video-cloud/brightcove-player/guides/playlist-api.html#currentitem). How do we get the correct item index? Easy, because we set it as the `data-playlist-index` attribute of the image tags as we were creating them.
 
 > `data-whatever` attributes were added to HTML5 precisely for this purpose - to store bits of data so you could retrieve them via JavaScript.
 
@@ -288,7 +288,7 @@ myPlayer.playlist.currentItem(index);
 
 > Note the `this` keyword - in JavaScript event handlers, it automatically refers to the element that *you added the event listener to*.
 
-The only problem with the code above is that all HTML attribute values are returned as strings, but the `currentItem()` method expects an integer - `"2"` does **not** equal `2`. JavaScript has an easy fix for this, however: a `parseInt()` function that automatically converts whatever you pass to in to an integer: `parseInt('2') // = 2`.
+The only problem with the code above is that all HTML attribute values are returned as strings, but the `currentItem()` method expects an integer - `"2"` does **not** equal `2`. JavaScript has an easy fix for this, however: a [`parseInt()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) function that automatically converts whatever you pass to in to an integer: `parseInt('2') // = 2`.
 
 The last thing we need to do is play the selected video, and of course the player has a `play()` method. So our full event listener looks like this:
 
