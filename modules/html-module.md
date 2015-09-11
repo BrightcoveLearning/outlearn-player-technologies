@@ -82,3 +82,6 @@ Did that work? When you finish, the CodePen should look like the one linked belo
 [HTML Exercise Solution](https://codepen.io/team/bcls/pen/xwwRwR)
 
 So now let's move on to CSS.
+
+***
+<a id="feedbackMail" href="mailto:docs@brightcove.com">Questions or comments?</a>

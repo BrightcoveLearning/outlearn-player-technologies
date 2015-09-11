@@ -307,3 +307,6 @@ For your last exercise, add the code to the CodePen linked below to add click ev
 The link to the final working solution is below:
 
 <!-- @link, "url" : "https://codepen.io/team/bcls/pen/pjjzRv", "text": "Final Solution" -->
+
+***
+<a id="feedbackMail" href="mailto:docs@brightcove.com">Questions or comments?</a>

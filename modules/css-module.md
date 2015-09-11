@@ -127,3 +127,6 @@ And what if you wanted to [make the player responsive](http://docs.brightcove.co
 A better approach would be to wrap the whole player and playlist in another `div` tag. Then you could set the `width` of the player and playlist to `100%` of the wrapper `div` width, and then just set the `width` on the wrapper, like the example in the CodePen below:
 
 <!-- @link, "url" : "http://codepen.io/team/bcls/pen/pjjROd", "text": "Video Player and Playlist in DIV Wrapper" -->
+
+***
+<a id="feedbackMail" href="mailto:docs@brightcove.com">Questions or comments?</a>

@@ -25,3 +25,7 @@ JavaScript is a scripting language that allows you to control player functionali
 - loading new videos into the player
 - displaying information about the current video
 - adding some kind of call-to-action that appears when the video ends
+
+***
+<a id="feedbackMail" href="mailto:docs@brightcove.com">Questions or comments?</a>
+
