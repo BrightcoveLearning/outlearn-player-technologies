@@ -11,7 +11,6 @@ Now you might want to try some of the guides for working with specific aspects o
 - [Quick Start to Plugin Development](http://docs.brightcove.com/en/video-cloud/brightcove-player/guides/plugin-dev-quick-start.html)
 
 ***
-
 <a id="feedbackMail" href="mailto:docs@brightcove.com">Questions or comments?</a>
 
 
