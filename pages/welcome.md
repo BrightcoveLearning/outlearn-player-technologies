@@ -27,5 +27,5 @@ JavaScript is a scripting language that allows you to control player functionali
 - adding some kind of call-to-action that appears when the video ends
 
 ***
-<a id="feedbackMail" href="mailto:docs@brightcove.com">Questions or comments?</a>
+**<a id="feedbackMail" href="mailto:docs@brightcove.com?subject=Outlearn-Tutorial">Questions or comments?</a>**
 
