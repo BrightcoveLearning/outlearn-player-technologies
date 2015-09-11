@@ -1,6 +1,17 @@
-# So Long, and Thanks for All the Fish
+# Congratulations!
 
-We hope you had fun and got a sense of what you can do with Outlearn. If you can't wait to learn more, head out to [Publishing Great Learning Content](https://pilot.outlearn.com/learn/outlearn/outlearn-publishing) on Outlearn.
+You have finished the Brightcove Player Technologies tutorial, and you now have some grounding in using HTML, CSS, and JavaScript around the player.
 
-</br>
-![Thanks for All the Fish](http://i.giphy.com/t64o8WukSJwqY.gif)
+## Where to go from here
+
+Now you might want to try some of the guides for working with specific aspects of the Brightcove player - here are a few suggestions:
+
+- [Quick Start to the Brightcove Player](http://docs.brightcove.com/en/video-cloud/brightcove-player/getting-started/quick-start-bc-player.html)
+- [Quick Start to Player Customization](http://docs.brightcove.com/en/video-cloud/brightcove-player/guides/customize-quick-start.html)
+- [Quick Start to Plugin Development](http://docs.brightcove.com/en/video-cloud/brightcove-player/guides/plugin-dev-quick-start.html)
+
+***
+
+<a id="feedbackMail" href="mailto:docs@brightcove.com">Questions or comments?</a>
+
+
