@@ -5,7 +5,7 @@
 "title" : "JavaScript Essentials for the Brightcove Player",
 "description" : "Learn to use JavaScript to control the Brightcove Player",
 "homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
-"freshnessDate" : 2015-08-30,
+"freshnessDate" : 2015-09-11,
 "license" : "CC BY 4.0"
 }
 -->

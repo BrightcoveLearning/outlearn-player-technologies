@@ -5,7 +5,7 @@
 "title" : "CSS Essentials for the Brightcove Player",
 "description" : "This is only a test",
 "homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
-"freshnessDate" : 2015-08-30,
+"freshnessDate" : 2015-09-11,
 "license" : "CC BY 4.0"
 }
 -->
