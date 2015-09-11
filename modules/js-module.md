@@ -16,18 +16,19 @@
 
 If you already know the basics of JavaScript, you can move right on to the next section. If you're just starting, however, there is a lot of complexity to JavaScript, and you need to learn the basic features of the language. Here's a very good tutorial for beginners:
 
-<!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript", "text": "JavaScript Tutorial" -->
+<!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "text": "JavaScript Guide" -->
 
 Take your time with that - practice spent on the basics will help you later on. Some basic things you need to know about are:
 
-- [declaring variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#Declarations)
-- [conditional statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Conditional_statements)
-- [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
-- [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- declaring variables
+- conditional statements (if...else)
+- for loops
+- defining and calling functions
+- array and object data types
 
 You also need to understand [events](https://developer.mozilla.org/en-US/docs/Web/Events), because much of the scripting you do in relation to the player will be in response to some event. You also need to feel comfortable with data structures like objects and arrays.
 
-Take, for example, an  [array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) of simple video [objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object):
+Take, for example, an array of objects:
 
 ```js
 var items = [
@@ -295,7 +296,7 @@ The last thing we need to do is play the selected video, and of course the playe
 ```js
 function loadPlaylistItem () {
     var index = this.getAttribute('data-playlist-index');
-    myPlayer.playlist.currentItem(parseInt(index));
+    myPlayer.playlist.currentItem(parseInt(index, 10));
     myPlayer.play();
 };
 ```
