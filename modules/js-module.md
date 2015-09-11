@@ -186,7 +186,7 @@ videojs("myPlayerID").one('loadedmetadata',function(){
 });
 ```
 
-> Notice the **one**`('loadedmetadata'...` - you can also use `on`, which will set up a permanent event listener. Using `one` instead allows you to handle the event only the first time it fires - and that is exactly what we want in this case. Be aware that a new `loadedmetadata` event will be emitted whenever new media is loaded into the player.
+> Notice the **`one`**`('loadedmetadata'...` - you can also use `on`, which will set up a permanent event listener. Using `one` instead allows you to handle the event only the first time it fires - and that is exactly what we want in this case. Be aware that a new `loadedmetadata` event will be emitted whenever new media is loaded into the player.
 
 The player playlist object has a built-in [`playlist()`](http://docs.brightcove.com/en/video-cloud/brightcove-player/guides/playlist-api.html#playlist) method that will allow you to get playlist data:
 
