@@ -20,7 +20,7 @@ If you're a total beginner with HTML, go here to get the basics:
 
 <!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/HTML", "text": "Getting Started with HTML" -->
 
-Once you get the basics, go on to the next module.
+Once you get the basics, go on to the next section.
 
 <!-- @section -->
 
