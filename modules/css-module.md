@@ -3,8 +3,8 @@
 "name": "css-module",
 "version" : "0.1",
 "title" : "CSS Essentials for the Brightcove Player",
-"description" : "This is only a test",
-"homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
+"description" : "Learn to style content around the Brightcove Player using CSS",
+"homepage" : "//docs.brightcove.com/en/video-cloud/index.html",
 "freshnessDate" : 2015-09-11,
 "license" : "CC BY 4.0"
 }

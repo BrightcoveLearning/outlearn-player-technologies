@@ -4,7 +4,7 @@
 "version" : "0.1",
 "title" : "JavaScript Essentials for the Brightcove Player",
 "description" : "Learn to use JavaScript to control the Brightcove Player",
-"homepage" : "https://github.com/rcrooks/outlearn-player-technologies",
+"homepage" : "//docs.brightcove.com/en/video-cloud/index.html",
 "freshnessDate" : 2015-09-11,
 "license" : "CC BY 4.0"
 }
