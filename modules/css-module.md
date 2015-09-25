@@ -80,11 +80,11 @@ You can see the finished code for this exercise here: [CSS Exercise 1 Solution](
 
 Now that we've added classes to the HTML tags, we need to add the CSS that defines the way we want our playlist to look.
 
-For the overall list, we will constrain it to match the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width) of the player, and [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height) to present one row of images. We'll set the [`margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) and [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) to 0, and we don't want bullets, so we'll set [`list-style-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type) to `none`. Since all the thumbnails will not fit in the player width, we will also define the [`overflow-x`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x) property to allow the list to scroll horizontally, and set the [`overflow-y`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y) property to `hidden` so that the list won't scroll vertically.. By default, though, extra list items would roll over to a new row, so we'll prevent that by setting [`white-space`](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) to `nowrap`.
+For the overall list, we will constrain it to match the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width) of the player, and [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height) to present one row of images. We'll set the [`margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) and [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) to 0. Since all the thumbnails will not fit in the player width, we will also define the [`overflow-x`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x) property to allow the list to scroll horizontally, and set the [`overflow-y`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y) property to `hidden` so that the list won't scroll vertically.. By default, though, extra list items would roll over to a new row, so we'll prevent that by setting [`white-space`](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) to `nowrap`. Finally, we'll set the ([`background-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) to match the player background color (`#141B17`).
 
 For the list items, first of all, we want the thumbnails to be laid out horizontally rather than vertically. To do this, we will use the [`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display) property, setting it to `inline-block`. We'll also set [`margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) and [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) to `0`, and set the `width` of the items to avoid white space between them.
 
-For the images, we will add a [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border) to set them off from one another (using the [`background-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) the player to give the list an integrated look), and resize the images using the `width` and `height` properties to fit four images across the bottom of the player. Finally we'll add the [`cursor`](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) property, setting it to `pointer` so that it's more obvious that clicking on the images will do something.
+For the images, we will add [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) on all sides let the list background color show through and "frame" the images, and resize the images using the `width` and `height` properties to fit four images across the bottom of the player. Finally we'll add the [`cursor`](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) property, setting it to `pointer` so that it's more obvious that clicking on the images will do something.
 
 In the CodePen below, go to the CSS section and add the following classes:
 
@@ -97,6 +97,7 @@ In the CodePen below, go to the CSS section and add the following classes:
     white-space: nowrap;
     margin: 0;
     padding: 0;
+    background-color: #141B17;
 }
 .bcls-playlist-item {
     display: inline-block;
@@ -107,7 +108,10 @@ In the CodePen below, go to the CSS section and add the following classes:
 .bcls-thumbnail {
     width: 118px;
     height: 66px;
-    border: 4px solid #141B17;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
     cursor: pointer;
 }
 ```
