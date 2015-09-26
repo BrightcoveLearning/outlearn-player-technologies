@@ -6,7 +6,6 @@
             "title": "Technologies for Brightcove Player Development",
             "description": "This learning path provides help in essential HTML, CSS, and JavaScript skills for developers working with the Brightcove Player",
             "privacy": "public",
-            //"coverColor": "#F3951D",
             "coverImage": "./assets/background.png",
             "pages": [
                 {
