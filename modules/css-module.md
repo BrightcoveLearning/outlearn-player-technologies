@@ -124,7 +124,17 @@ Got that? If you want to see what it should look like, see [CSS Exercise 2 Solut
 
 ## Challenge: Highlight an Item
 
-If you'd like to practice your HTML and CSS skills, go back to the CodePen and add another class called `bcls-selected-item` that is identical to the `bcls-playlist-item` class except that it has its own `background-color` image (choose something light). Also modify the `div` for the first playlist item and give it this class. This is how you would highlight the currently loaded video. Try it here:
+If you'd like to practice your HTML and CSS skills, let's see how you could apply some highlighting to the current item in the playlist.
+
+You might be inclined to create another class like `bcls-active-item` - that's a good idea in principle, but when we get to the JavaScript module challenge, you'll see why it's not going to work well here.
+
+Instead, remember that CSS properties can be applied directly to an HTML tag using the `style` attribute, like this:
+
+```
+<p style="background-color:#333333;; color:#FFFFFF;">
+```
+
+That serves the need here perfectly, because all we need to do is change the `background-color` of the selected playlist element `div` to override the background-color of the list. See if you can do that in the codepen linked below by adding a style attribute to the first playlist item div:
 
 <!-- @link, "url" : "https://codepen.io/team/bcls/pen/GpNqOy", "text": "Challenge Exercise" -->
 

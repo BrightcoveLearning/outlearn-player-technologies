@@ -313,7 +313,7 @@ The link to the final working solution is below:
 
 ## Challenge: Highlight the Current Item
 
-If you completed the challenge exericise for the CSS module, you added a class that should look like this:
+If you completed the challenge exercise for the CSS module, you added a class that should look like this:
 
 ```
 .bcls-active-item {
@@ -325,7 +325,10 @@ If you completed the challenge exericise for the CSS module, you added a class t
 }
 ```
 
-What you now want to do is use JavaScript to apply that class to the current item in the playlist.
+What you now want to do is use JavaScript to apply that class to the current item in the playlist. Here are some hints:
+
+- You don't want to just keep highlighting more and more items, so you need to set the class of all the items back to `.bcls-playlist-item` and *then* change the class of the current item to `.bcls-active-item`
+-
 
 ***
 **<a id="feedbackMail" href="mailto:docs@brightcove.com?subject=Outlearn-Tutorial">Questions or comments?</a>**
