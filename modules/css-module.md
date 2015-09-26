@@ -128,6 +128,8 @@ If you'd like to practice your HTML and CSS skills, go back to the CodePen and a
 
 <!-- @link, "url" : "https://codepen.io/team/bcls/pen/GpNqOy", "text": "Challenge Exercise" -->
 
+And here is a [solution](https://codepen.io/team/bcls/pen/NGbRgW).
+
 <!-- @section -->
 
 ## Best Practices
