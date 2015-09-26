@@ -309,5 +309,23 @@ The link to the final working solution is below:
 
 <!-- @link, "url" : "https://codepen.io/team/bcls/pen/pjjzRv", "text": "Final Solution" -->
 
+<!-- @section -->
+
+## Challenge: Highlight the Current Item
+
+If you completed the challenge exericise for the CSS module, you added a class that should look like this:
+
+```
+.bcls-active-item {
+    background-color: #64AAB2;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 122px;
+}
+```
+
+What you now want to do is use JavaScript to apply that class to the current item in the playlist.
+
 ***
 **<a id="feedbackMail" href="mailto:docs@brightcove.com?subject=Outlearn-Tutorial">Questions or comments?</a>**
