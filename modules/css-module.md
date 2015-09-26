@@ -161,4 +161,5 @@ A better approach would be to wrap the whole player and playlist in another `div
 <!-- @link, "url" : "http://codepen.io/team/bcls/pen/pjjROd", "text": "Video Player and Playlist in DIV Wrapper" -->
 
 ***
+
 **<a id="feedbackMail" href="mailto:docs@brightcove.com?subject=Outlearn-Tutorial">Questions or comments?</a>**
