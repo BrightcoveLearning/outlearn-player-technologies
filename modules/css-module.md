@@ -126,7 +126,7 @@ Challenge: Highlight an Item
 
 If you'd like to practice your HTML and CSS skills, go back to the CodePen and add another class called `bcls-selected-item` that is identical to the `bcls-playlist-item` class except that it has its own `background-color` image (choose something light). Also modify the `div` for the first playlist item and give it this class. This is how you would highlight the currently loaded video. Try it here:
 
-
+<!-- @link, "url" : "https://codepen.io/team/bcls/pen/GpNqOy", "text": "Challenge Exercise" -->
 
 <!-- @section -->
 
