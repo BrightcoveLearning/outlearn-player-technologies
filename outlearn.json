@@ -21,7 +21,7 @@
                 },
                 {
                     "module": "js-module",
-                    "preface": "So now we have a pretty nice looking playlist - but it still doesn't do anything. Now we will remedy that, using JavaScript to wire up the playlist to the player."
+                    "preface": "So now we have a pretty nice looking playlist - but it still doesn't do anything. We will remedy that, using JavaScript to wire up the playlist to the player."
                 },
                 {
                     "page": "./pages/closing.md"
