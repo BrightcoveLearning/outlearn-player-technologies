@@ -40,7 +40,7 @@ body {
 > - In `style` attributes for individual tags:
 >
 ```
-<p style="background-color:#333333;; color:#FFFFFF;">
+<p style="background-color:#333333;;">
 ```
 >
 > Defining your styles as much as possible in separate CSS files allows you to reuse them across many pages, but it's also useful at times to override default styles at the page or even tag level. The rule there is: the closer the style property is to the tag, the higher priority the browser will give it.
