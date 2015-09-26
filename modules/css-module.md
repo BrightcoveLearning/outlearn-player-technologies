@@ -24,9 +24,21 @@ CSS itself is a pretty simple language to learn. As with HTML we're going to ass
 
 > One important thing to remember is that CSS can be applied in multiple ways:
 >
-> - In linked stylesheets (CSS files)
-> - In `style ` tags
-> - In `style` attributes for individual tags
+> - In linked stylesheets (CSS files):
+```
+<link rel="stylesheet" type="text/css" href="/en/styles/bcls-doc-site.css">
+```
+> - In `style ` tags:
+```
+body {
+    margin: 2em;
+    font-family: sans-serif;
+}
+```
+> - In `style` attributes for individual tags:
+```
+<p style="background-color:#333333;; color:#FFFFFF;">
+```
 >
 > Defining your styles as much as possible in separate CSS files allows you to reuse them across many pages, but it's also useful at times to override default styles at the page or even tag level. The rule there is: the closer the style property is to the tag, the higher priority the browser will give it.
 
