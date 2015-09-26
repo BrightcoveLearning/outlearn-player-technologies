@@ -22,6 +22,14 @@ CSS itself is a pretty simple language to learn. As with HTML we're going to ass
 
 <!-- @link, "url" : "https://developer.mozilla.org/en-US/docs/Web/CSS", "text": "MDN CSS Tutorial" -->
 
+> One important thing to remember is that CSS can be applied in multiple ways:
+>
+> - In linked stylesheets (CSS files)
+> - In `style ` tags
+> - In `style` attributes for individual tags
+>
+> Defining your styles as much as possible in separate CSS files allows you to reuse them across many pages, but it's also useful at times to override default styles at the page or even tag level. The rule there is: the closer the style property is to the tag, the higher priority the browser will give it.
+
 <!-- @section -->
 
 ## CSS Pitfalls
