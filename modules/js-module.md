@@ -5,7 +5,7 @@
 "title" : "JavaScript Essentials for the Brightcove Player",
 "description" : "Learn to use JavaScript to control the Brightcove Player",
 "homepage" : "//docs.brightcove.com/en/video-cloud/index.html",
-"freshnessDate" : 2015-09-11,
+"freshnessDate" : 2015-09-26,
 "license" : "CC BY 4.0"
 }
 -->
@@ -328,7 +328,7 @@ If you completed the challenge exercise for the CSS module, you added a class th
 What you now want to do is use JavaScript to apply that class to the current item in the playlist. Here are some hints:
 
 * You don't want to just keep highlighting more and more items, so you need to set the style of all the items back to `""` and *then* change the `style` of the current item to `background-color: #F3951D`` (choose any color you like).
-* You can do this at the same time that you set the `currentItem` in the playlist, but there is an advantage to creating a separate function to change the styles and calling that function after you set the current item - doing it that way allows you to call the function as soon as the playlist items are created, so that you immediately get highlighting of the first item
+*    You can do this at the same time that you set the `currentItem` in the playlist, but there is an advantage to creating a separate function to change the styles and calling that function after you set the current item - doing it that way allows you to call the function as soon as the playlist items are created, so that you immediately get highlighting of the first item
 
 Have a try at this in the CodePen below:
 

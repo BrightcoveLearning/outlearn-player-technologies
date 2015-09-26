@@ -5,7 +5,7 @@
 "title" : "HTML Essentials for the Brightcove Player",
 "description" : "Learn to create HTML content around the Brightcove Player",
 "homepage" : "//docs.brightcove.com/en/video-cloud/index.html",
-"freshnessDate" : 2015-09-11,
+"freshnessDate" : 2015-09-26,
 "license" : "CC BY 4.0"
 }
 -->

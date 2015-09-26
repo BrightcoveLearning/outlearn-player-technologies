@@ -5,7 +5,7 @@
 "title" : "CSS Essentials for the Brightcove Player",
 "description" : "Learn to style content around the Brightcove Player using CSS",
 "homepage" : "//docs.brightcove.com/en/video-cloud/index.html",
-"freshnessDate" : 2015-09-11,
+"freshnessDate" : 2015-09-26,
 "license" : "CC BY 4.0"
 }
 -->
